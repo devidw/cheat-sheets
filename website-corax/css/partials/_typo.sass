@@ -1,0 +1,18 @@
+body
+  background: map-get($colors, bg)
+  color: map-get($colors, text)
+  font-family: map-get($fonts, body)
+
+hr
+  border-width: .05rem
+  border-style: solid
+  border-color: map-get($colors, text)
+  margin: 1rem 0 1.5rem 0
+
+@for $i from 1 through 6
+  h#{$i}
+    color: map-get($colors, accent)
+    font-family: map-get($fonts, head)
+
+  h2
+    text-align: center

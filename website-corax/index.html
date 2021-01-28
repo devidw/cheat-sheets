@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Corax</title>
+
+  <link rel="icon" href="./img/favicon-white.svg" media="(prefers-color-sheme: dark)">
+  <link rel="icon" href="./img/favicon-black.svg" media="(prefers-color-sheme: light)">
+
+  <link rel="stylesheet" href="./css/import.min.css">
+</head>
+
+<body>
+
+  <header id="landing">
+    <section class="container">
+      <img src="./img/logo-white.svg" alt="logo">
+      <h2>{{ headline }}</h2>
+      <hr>
+      <p>{{ text }}</p>
+    </section>
+  </header>
+
+  <main class="container">
+
+    <article id="nature">
+      <header>
+        <h2>{{ headline }}</h2>
+        <hr>
+      </header>
+      <section v-for="item in blocks">
+        <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
+        <p>{{ item.text }}</p>
+      </section>
+    </article>
+
+    <article id="coreValues">
+      <header>
+        <h2>{{ headline }}</h2>
+        <hr>
+      </header>
+      <section v-for="item in blocks">
+        <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
+        <p>{{ item.text }}</p>
+      </section>
+    </article>
+
+    <footer id="legal">
+      <header>
+        <h2>{{ headline }}</h2>
+        <hr>
+      </header>
+      <section v-for="pair in pairs" class="row">
+        <div class="col">
+          <p>{{ pair.label }}</p>
+        </div>
+        <div class="col">
+          <p>{{ pair.content }}</p>
+        </div>
+      </section>
+    </footer>
+
+  </main>
+
+  <!-- <script src="./js/vendor/bootstrap.bundle.min.js"></script> -->
+  <script src="./js/vendor/vue@2.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

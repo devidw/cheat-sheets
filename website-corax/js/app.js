@@ -6,8 +6,8 @@ let landing = new Vue({
   }
 });
 
-let nature = new Vue({
-  el: '#nature',
+let about = new Vue({
+  el: '#about',
   data: {
     headline: 'Wir haben uns mit dem besten Designer der Welt zusammengetan: Der Natur.',
     blocks: [{

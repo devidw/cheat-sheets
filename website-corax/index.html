@@ -15,6 +15,21 @@
 
 <body>
 
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Corax</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#nature">Über Uns</a>
+          <a class="nav-link" href="#coreValues">Kernwerte</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <header id="landing">
     <section class="container">
       <img src="./img/logo-white.svg" alt="logo">
@@ -25,8 +40,7 @@
   </header>
 
   <main class="container">
-
-    <article id="nature">
+    <article id="about">
       <header>
         <h2>{{ headline }}</h2>
         <hr>
@@ -54,18 +68,17 @@
         <hr>
       </header>
       <section v-for="pair in pairs" class="row">
-        <div class="col">
+        <div class="col-12 col-md-6">
           <p>{{ pair.label }}</p>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6">
           <p>{{ pair.content }}</p>
         </div>
       </section>
     </footer>
-
   </main>
 
-  <!-- <script src="./js/vendor/bootstrap.bundle.min.js"></script> -->
+  <script src="./js/vendor/bootstrap.bundle.min.js"></script>
   <script src="./js/vendor/vue@2.js"></script>
   <script src="./js/app.js"></script>
 </body>

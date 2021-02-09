@@ -1,0 +1,15 @@
+footer
+  margin-bottom: 6rem
+
+  @media (max-width: map-get($breakpoints, md))
+    margin-bottom: 3rem
+
+  // left aka first footer colum styles
+  .row
+    [class*="col"]:first-of-type
+      p
+        font-weight: bold
+        color: map-get($colors, accent)
+
+        @media (min-width: map-get($breakpoints, md))
+          text-align: right

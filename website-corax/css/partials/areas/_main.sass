@@ -1,0 +1,32 @@
+main
+  padding-top: 3rem
+
+  article
+    margin-bottom: 4rem
+
+    section
+      margin-bottom: 5rem
+      display: flex
+      align-items: flex-end
+
+      .img-container
+        height: 400px
+        padding: 0 !important
+        overflow: hidden
+        $box-shadow: 0px 0px 42px -3px transparentize(map-get($colors, accent), .4)
+        -webkit-box-shadow: $box-shadow
+        box-shadow: $box-shadow
+
+        @media (min-width: map-get($breakpoints, md))
+          border-radius: .35rem
+          margin: 0 1rem !important
+
+        // add apace between image and text columns
+        @media (max-width: map-get($breakpoints, md))
+          & + div
+            margin-top: 1rem
+
+        img
+          min-height: 100%
+          min-width: 100%
+          filter: sepia(.35) contrast(.7)

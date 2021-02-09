@@ -1,7 +1,13 @@
 body
-  background: map-get($colors, bg)
+  // background: linear-gradient(to bottom, map-get($colors, bg), darken(map-get($colors, bg), 5))
+  background-image: linear-gradient( 110.3deg,  rgba(238,179,123,1) 8.7%, rgba(216,103,77,1) 47.5%, rgba(114,43,54,1) 89.1% )
   color: map-get($colors, text)
   font-family: map-get($fonts, body)
+
+section
+  p
+    text-align: justify
+    hyphens: auto
 
 hr
   border-width: .05rem
@@ -14,5 +20,23 @@ hr
     color: map-get($colors, accent)
     font-family: map-get($fonts, head)
 
+    word-wrap: break-word
+
+h2
+  text-align: center
+
+main
   h2
-    text-align: center
+    font-size: 4rem
+    margin-bottom: 4rem
+
+    @media (max-width: map-get($breakpoints, md))
+      font-size: 2rem
+
+  h3
+    font-size: 2rem
+    padding-bottom: .5rem
+    border-bottom: .1rem dotted #fffa
+
+    @media (max-width: map-get($breakpoints, md))
+      font-size: 1.5rem

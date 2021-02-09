@@ -1,0 +1,19 @@
+#landing
+  min-height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+  background: linear-gradient(to top, darken(map-get($colors, accent), 10), transparent), url(../img/landing.webp)
+  background-size: cover
+  background-position: center center
+
+  @media (max-width: map-get($breakpoints, md))
+    margin-top: map-get($sizes, nav-height)
+
+  h2, p
+    color: white
+
+  img
+    width: 50%
+    margin: auto

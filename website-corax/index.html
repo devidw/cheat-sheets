@@ -19,9 +19,10 @@
 
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Corax</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="#top">Corax</a>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- 🍔 -->
+        ☰
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -45,29 +46,36 @@
     <article id="about">
       <header>
         <h2>{{ headline }}</h2>
-        <hr>
       </header>
-      <section v-for="item in blocks">
-        <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
-        <p>{{ item.text }}</p>
+      <section v-for="item in blocks" class="row">
+        <div class="col">
+          <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
+          <p>{{ item.text }}</p>
+        </div>
+        <div v-if="item.image" class="col-md-6 img-container">
+          <img :src="item.image" :alt="item.image">
+        </div>
       </section>
     </article>
 
     <article id="coreValues">
       <header>
         <h2>{{ headline }}</h2>
-        <hr>
       </header>
-      <section v-for="item in blocks">
-        <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
-        <p>{{ item.text }}</p>
+      <section v-for="item in blocks" class="row" >
+        <div v-if="item.image" class="col-md-6 img-container">
+          <img :src="item.image" :alt="item.image">
+        </div>
+        <div class="col">
+          <h3 v-if="item.subtitle">{{ item.subtitle }}</h3>
+          <p>{{ item.text }}</p>
+        </div>
       </section>
     </article>
 
     <footer id="legal">
       <header>
         <h2>{{ headline }}</h2>
-        <hr>
       </header>
       <section v-for="pair in pairs" class="row">
         <div class="col-12 col-md-6">

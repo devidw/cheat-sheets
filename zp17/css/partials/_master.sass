@@ -1,6 +1,31 @@
-.details
-  display: none
-
-article
+body
+  // https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+  min-height: 100vh
   display: flex
-  justify-content: space-between
+  flex-direction: column
+
+main
+  flex: 1
+
+footer
+  text-align: center
+  margin-bottom: 1rem
+
+nav
+  margin-top: 1rem
+  text-align: center
+
+  header
+    display: flex
+    justify-content: center
+
+    img
+      width: 100px
+      height: 100px
+
+h1
+  white-space: pre
+
+summary
+  text-align: center
+  background: grey

@@ -1,3 +1,6 @@
 = A collection of school related projects
 
+https://app.netlify.com/sites/mg9/deploys[image:https://api.netlify.com/api/v1/badges/c4555835-cbbc-4f6a-ba81-f29b44801115/deploy-status[Netlify
+Status]]
+
 https://🤓🖕.ml[🤓🖕.ml]

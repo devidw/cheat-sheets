@@ -1,0 +1,5 @@
+baseURL = "http://xn--cz8h19c.ml/"
+languageCode = "de-de"
+title = "Cheat Sheets"
+
+theme = 'hugo-theme-fuji-master'

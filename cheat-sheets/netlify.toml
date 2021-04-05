@@ -1,6 +1,2 @@
-[build]
-  base    = "cheat-sheets"
-  publish = "/"
-
 [context.production.environment]
   HUGO_VERSION = "0.82.0"

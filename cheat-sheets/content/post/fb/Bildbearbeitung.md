@@ -1,21 +1,22 @@
 ---
 title: "Bildbearbeitung"
-date: 2021-04-05T15:03:13+02:00
+date: 2020-09-30T15:03:13+02:00
+tags: ["fb"]
 ---
 
 ## Über
-30.09.20, 3. & 4. Std. in Raum G105  (Abgeschlossen)
+30.09.20, 3. & 4. Std. in Raum G105 (Abgeschlossen)
 
 ### Quellmaterialien
 - Texte zur Bildbearbeitung (Ausdruck)
 - alte Prüfungsaufgaben
 - Schüleraufgaben
 
----
 
 ## Farbmischung
 
-![Farbkreis](/storage/6-teiliger-farbkreis_black.svg)
+![Farbkreis](/img/6-teiliger-farbkreis_black.svg)
+
 eine Farbe mischt sich immer aus den angrenzenden Farben
 
 ### Additiv (**R**ot **G**rün **B**lau)
@@ -30,7 +31,6 @@ eine Farbe mischt sich immer aus den angrenzenden Farben
 - 0-100%
 - Cyan + Magenta + Gelb = **Schwarz**
 
----
 
 ## Fachbegriffe
 - Tonwert
@@ -56,10 +56,8 @@ eine Farbe mischt sich immer aus den angrenzenden Farben
 - Weißabgleich
   - legt fest was als weiß behandelt wird
 
----
 
 ## Histogramm
-
 - X (waagerecht _ ): Tonwertverteilung
   - Von rechts nach links unterteilt in:
     - Lichter
@@ -70,7 +68,6 @@ eine Farbe mischt sich immer aus den angrenzenden Farben
 - Y (senkrecht | ): Tonwerthäufigkeit
 - => Welche Twe (X) kommen wie oft (Y) im Bild vor?
 
----
 
 ## Gradationskurve
 - RGB: 0 (schwarz) -> 255 (Rot/Grün/Blau)
@@ -85,58 +82,3 @@ eine Farbe mischt sich immer aus den angrenzenden Farben
     - Kontraststeigerung Mitteltöne, -verringerung Tiefen & Lichter
   - "umgekehrte S-Kurve"
     - Kontraststverringerung  Mitteltöne, -steigerung Tiefen & Lichter
----
-
-## Böcking KAs zum gleichen Thema
-
-![Seite 1](/storage/bildbearbeitungKathy.jpg)
-
----
-
-![Seite 1](/storage/bildbearbeitung.jpg)
-
-### Nummer 1
-Farbe verhalten sich umgekehrt (RGB-Nullpunkt: schwarz, CMYB-Nullpunkt: weiß), da Lichtfarben ergänzen sich zu weiß und Körperfarben zu schwarz.
-
-### Nummer 2
-Kontraststeigerung in Tiefen, Lichter
-Kontrastverlust in Mitteltönen
-
-### Nummer 3a
-  - keine Tiefen/Lichter => kontrastarm
-  - Tonwerte in 1/4- & 3/4-Bereich
-
-### Nummer 3b
-  - Grün & Blau unverändert
-  - Rot Tonverspreizung => Rotsich
-
-### Nummer 4 - Clipping
-Lichter und Tiefen verlieren Zeichnung
-
-### Nummer 5 - Tonwertumfang
-Unterschied hellster dunkelster Pixel
-
-### Nummer 6
-- 1 zu B
-  - Strand helle Lichter
-- 2 zu C
-  - gleiche Fläche, kein großer Helligkeits/Kontrastunterschied
-- 3 zu A
-  - 2 flächig, harter Tonwertwechsel
-
-### Nummer 7
-Magenta + Gelb = Rot
-
-### Nummer 8
-- Tonwertspreizung erzeugt Tonwertabrisse
-- Tonwertabrisse sind durch Lücken im Histogramm erkennbar
-
-### Nummer 9
-- X: Tonwertverteilung
-- Y: Tonwertspreizung
-
-### Nummer 10
-- Posterisation, Tonwerttrennung
-
-### Nummer 11
-- Unterschied Schwarz- & Weißpunkt

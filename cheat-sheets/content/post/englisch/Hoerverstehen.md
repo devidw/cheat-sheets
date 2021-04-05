@@ -1,6 +1,7 @@
 ---
 title: "Hörverstehen"
-date: 2021-04-05T15:12:58+02:00
+date: 2020-10-05T15:14:58+02:00
+tags: ["englisch"]
 ---
 
 ## Über
@@ -20,7 +21,8 @@ date: 2021-04-05T15:12:58+02:00
 - Telefonat schreiben
 - Wissensabfrage
 
----
+
+
 ## Telephoning expressions
 
 ### Opening
@@ -49,7 +51,8 @@ date: 2021-04-05T15:12:58+02:00
 - I think that was all.
 - Goodbye
 
----
+
+
 
 ## conveying bad news
 
@@ -60,10 +63,11 @@ date: 2021-04-05T15:12:58+02:00
 ### "No", change subject, sth inconvenient
 - actually
 
----
+
+
 ## Vokabeln
 | English | German |
-| ------------- |-------------|
+| --- | --- |
 | to convey | übermitteln |
 | to regret | bedauern |
 | actually | eigentlich |

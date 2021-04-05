@@ -1,7 +1,9 @@
 ---
-title: "Farbe & Typo"
+title: "Farbenlehre und Typografie"
 date: 2021-04-05T15:03:13+02:00
+tags: ["fb"]
 ---
+
 
 ## Über
 6 + 7 Std.
@@ -10,7 +12,8 @@ date: 2021-04-05T15:03:13+02:00
 - Grundlagenbuch
 - Abs
 
----
+
+
 ## Farbe
 
 ### sehen
@@ -22,29 +25,23 @@ date: 2021-04-05T15:03:13+02:00
     - Grün: 500 - 600 nm (mittelwellig)
     - Rot: 600 - 700 nm (langwellig)
 
----
 
 ### Mischung
-
-![6-teiliger-farbkreis](/storage/6-teiliger-farbkreis_black.svg)
+![6-teiliger-farbkreis](/img/6-teiliger-farbkreis_black.svg)
 
 #### additiv
-
 | Gruppe | Farbe | Spektrum |
-| --- | --- | --- |
-| Null-Drittel-Farbe | Schwarz| --- |
-| Ein-Drittel-Farbe | Rot | --R |
-| | Grün |-G- |
-| | Blau | B-- |
-| Zwei-Drittel-Farbe | Cyan | BG- |
-| | Magenta |B-R |
-| | Yellow| -GR |
-|Drei-Drittel-Farbe | Weiß | BGR |
-
-
+| - | - | - |
+| Null-Drittel-Farbe | Schwarz| - - -
+| Ein-Drittel-Farbe | Rot | - - R |
+| | Grün |- G - |
+| | Blau | B - - |
+| Zwei-Drittel-Farbe | Cyan | B G - |
+| | Magenta | B - R |
+| | Yellow| - G R |
+|Drei-Drittel-Farbe | Weiß | B G R |
 
 #### subtraktiv
-
 - lasierende Druckfarbe (Übereinanderdruck & Zusammenmischen)
   - absorbiert nicht eigenfarbiges Licht
   - lässt eigenfarbiges Licht hindurch, Papier remittiert es
@@ -54,13 +51,11 @@ date: 2021-04-05T15:03:13+02:00
   - remittiert eigenfarbiges Licht direkt
 - Komplementärfarben ergeben schwarz
 
----
 
 ### Modell
 
 #### LAB
-
-![CIE-LAB-1976-color-space.png](/storage/wSjnnOAFKAVRTsdJAtpa4DrMxyEmxlQyKUOsmeYl.png)
+![CIE-LAB-1976-color-space.png](/img/lab.png)
 
 - Luminanz (Helligkeit)
   - schwarz (0, unten) -> weiß (100, oben)
@@ -72,7 +67,7 @@ date: 2021-04-05T15:03:13+02:00
 
 ##### Beispiele
 Farbe | L | A | B
---- | --- | --- | ---
+| - | - | - | - |
 Schwarz | 0 | 0 | 0
 Weiß | 100 | 0 | 0
 Grün | 50 | -100 | 0
@@ -82,7 +77,7 @@ Gelb | 50 | 0 | +100
 
 #### Würfel (Hickethier)
 
-![Hickethier.jpg](/storage/fs1NtdnHlTZqMcPvW0P4Q0uud4q8HudeF9iAEwEr.jpeg)
+![Hickethier.jpg](/img/wuerfel.jpeg)
 Farbe als Koordinate im 3D-Würfel ablesen ausgehend von weiß (000) über 3 Achsen (YMC)
 
 - 3 stelliger Code (Sättigungsstufen: 0-9)
@@ -92,7 +87,7 @@ Farbe als Koordinate im 3D-Würfel ablesen ausgehend von weiß (000) über 3 Ach
 
 ##### Beispiele
 \# | Stelle 1 (Gelb) | Stelle 2 (Magenta) | Stelle 3 (Cyan)
---- | --- | --- | ---
+-- | -- | -- | --
 Weiß | 0 | 0 | 0
 Gelb | 9 | 0 | 0
 Magenta | 0 | 9 | 0
@@ -102,7 +97,8 @@ Grün | 9 | 0 | 9
 Blau | 0 | 9 | 9
 Schwarz | 9 | 9 | 9
 
----
+
+
 
 ### Gestaltung
 
@@ -198,11 +194,12 @@ Schwarz | 9 | 9 | 9
   - gegenteilig
   - Neugierde, Irritation, Provokation, Schock
 
----
 
-# Typo Regelwerk
 
-## Schriftenklassifikation
+
+## Typo Regelwerk
+
+### Schriftenklassifikation
   - klassisch
     - dezent/angenehm
     - schnell lesbar
@@ -217,7 +214,7 @@ Schwarz | 9 | 9 | 9
     - geeignet für lange -, langsam zu lesende Texte
     - verminderte Einprägsamkeit
 
-## Schriftcharakter
+### Schriftcharakter
   - klassisch
     - würdig, ruhend, abgeklärt
     - z. B. Museum, Bibliothek, Ballett
@@ -230,14 +227,14 @@ Schwarz | 9 | 9 | 9
   - serifenlos
     - sachlich, ruhig, konstruktiv
     - z. B. Technik, Energie, Auto
-## Schriftgröße
+### Schriftgröße
   - 2-3 versch.
   - Größen
     - Konsultationsgröße: 6-7 pt
     - Leseg: 8-12 pt
     - Auszeichnungsg: 14-16 pt
     - Schaug: 18-60 pt
-## Satzart
+### Satzart
   - Block
     - Grundtext
     - ruhiges Bild
@@ -262,7 +259,7 @@ Schwarz | 9 | 9 | 9
   - Form
     - Bildumfluss
     - Botschaft unterstüzend
-## Auszeichnung
+### Auszeichnung
   - Unterstreichung
     - meiden (-> zerstört Ruhe)
   - halbfett, **fett**
@@ -274,12 +271,12 @@ Schwarz | 9 | 9 | 9
     - optimale Lesbarkeit nicht gewährleistet (Groß- statt Kleinbuchstaben)
   - VERSALIEN
     - meiden (-> schwer lesbar)
-## Überschrift
+### Überschrift
   - größer
   - fetter
   - Freiraum
   - nicht > 2 Zeilen
-## Zahlensatz
+### Zahlensatz
   - Zahl < 13 then ausschreiben
   - Zahl \> 1000 then zwischen Tausenderstellen eine Spartie (= Zwischenraum)
   - Mediävalziffern
@@ -293,41 +290,35 @@ Schwarz | 9 | 9 | 9
       - von rechts in 3er Gruppen
     - Datum & Uhrzeit
       - Trennung mit Punkt + leichter Zwischenraum
-## Anführungszeichen
+### Anführungszeichen
   - „deutsch“ 99 66
   - »französisch deutsch«
   - «französisch»
   - "Zollzeichen" meiden
-## Textstrich
+### Textstrich
   - Binde
     - Trennungen, Wortzusammensetzungen, Auslassungszeichen
   - Gedanken
     - vor & nach - Gedanke - (mit Abstand)
     - "bis"-Ersatz & Streckenangaben (ohne Abstand)
-## Aufzählung
+### Aufzählung
   - Punkte, Striche, Quadrate, Pfeile
   - Halbgeviert zwischen Zeichen & Text genügt
-## Initial
+### Initial
   - dekorativ, einleitend
   - schön bei textlicher Umschließung
-## Schuster- & Hurenkind
+### Schuster- & Hurenkind
   - Schusterkind
     - erste Zeile neuer Absatz am Spaltenende
   - Hurenkind
     - letzte Zeile alter Absatz am Spaltenanfang
-## Raumverteilung
+### Raumverteilung
   - gleich große Räume meiden (-> langweilig)
   - Optische Mitte (+3% über Mathe-Mitte)
   - Goldener Schnitt (5:8)
-## Linie/Rahmen
+### Linie/Rahmen
   - Linenstärke angepasst an Grundschrift
-## Farbe
+### Farbe
   - Vielfarbigkeit suggeriert Unwichtigkeit
   - Schrift/Linien: kräftig
   - Hintergründe: hell
-
----
-
-# Diehl Farben Ka
-
-![FarbenlehreKa.jpg](/storage/tZDKuAO80kDUznVfiMi4HEoQx1X50jMPMwtS66DH.jpeg)

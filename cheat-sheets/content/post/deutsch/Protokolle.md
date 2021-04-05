@@ -1,6 +1,7 @@
 ---
 title: Protokolle
-date: 2021-04-05T13:58:00+02:00
+date: 2020-10-05T13:58:00+02:00
+tags: ["deutsch"]
 ---
 
 ## Über
@@ -23,7 +24,7 @@ date: 2021-04-05T13:58:00+02:00
 - direkte - in indirekte Rede umwandeln
 - Pkern verfassen
 
----
+
 
 ## Arten & Unterschiede
 - Wörtliches P
@@ -36,7 +37,7 @@ date: 2021-04-05T13:58:00+02:00
   - *nur* Ergebnisse
   - Indikativ
 
----
+
 ## Rahmen & Kern
 
 ### Rahmen Anfang
@@ -66,7 +67,7 @@ date: 2021-04-05T13:58:00+02:00
   - Verteiler
   - Hinweis auf evtl. Anlagen (Tagesordnung, etc.)
 
----
+
 
 ## Sprache
 
@@ -91,7 +92,7 @@ date: 2021-04-05T13:58:00+02:00
 
 ##### Endungen
 \# | Person Singular | Endung Singular | Person Plural | Endung Plural
---- | --- | --- | --- | ---
+ | --- | --- | --- | ---
 1 | ich | e | wir | en
 2 | du | est | ihr | et
 3 | er/sie/es | e | sie | en
@@ -99,11 +100,11 @@ date: 2021-04-05T13:58:00+02:00
 
 #### Beispiele
 Indikativ | Konjunktiv 1 | Konjunktiv 2 | Konjunktiv mit würde
---- | --- | --- | ---
+ | --- | --- | ---
 ich muss | er müsse | er müsste | er würde müssen
 es scheint | es scheine | es schiene | es würde scheinen
 
----
+
 
 ## Formalia
 

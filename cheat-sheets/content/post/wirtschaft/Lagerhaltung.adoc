@@ -16,19 +16,19 @@ Terminert für *Mittowch, 12. Mai 12021*
 | Wareneingangslager
 | Neu gelieferte Ware geht hier ein
 | Büromaterialien
-|
+| Verbrauchsgegenstände des Bürobetriebs lagern hier
 
 .2+| Produktion
 | Zwischenlager
-|
+| Für Ware die bereits bearbeitet wurde, den Fertigungsprozess aber noch nicht vollständig abgeschlossen hat
 | Ersatzteil- & Werkzeuglager
 | Lagerort für prozesserforderliches Equipment
 
 .2+| Absatz
 | Fertigwarenlager
-|
+| Fertige aber noch unverkaufte Ware lagert hier
 | Versandlager
-|
+| Verkaufte Ware die auf den Versand (z. B. Abholung per Spedition) wartet lagert hier
 |===
 
 
@@ -50,7 +50,7 @@ Wie effektiv die Lagerhaltung ist lässt sich an nachstehneden _Lagerkennziffern
 | Lagerkennziffer | Einheit | Erläuterung | Berechnung
 
 | Durchschnittlicher Lagerbestand
-| Summe in €
+| Summe in € oder Maßeinheit der Lagerware (m, l, kg, g)
 | _Wie viel_ Ware liegt im Schnitt, z. B. über ein Jahr hinweg, im Lager?
 | Summe der Lagerbestandswerte +
   ÷ +

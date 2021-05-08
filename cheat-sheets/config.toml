@@ -18,6 +18,14 @@ theme = 'hugo-theme-fuji-master'
     url = "/index.xml"
     weight = 5
   [[menu.link]]
-    name = "GitHub"
-    url = "https://github.com/devidwolf/edu"
-    weight = 1
+    name = "WebUntis"
+    url = "https://mese.webuntis.com/WebUntis/?school=BK-Technik-Siegen#/basic/timetable"
+  [[menu.link]]
+    name = "Teams"
+    url = "https://teams.microsoft.com"
+  [[menu.link]]
+    name = "SiWiWissen"
+    url = "https://siwiwissen.de"
+  [[menu.link]]
+    name = "BKT"
+    url = "https://berufskolleg-technik.de/"

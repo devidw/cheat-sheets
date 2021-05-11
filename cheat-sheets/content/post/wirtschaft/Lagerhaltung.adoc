@@ -54,7 +54,9 @@ Wie effektiv die Lagerhaltung ist lässt sich an nachstehneden _Lagerkennziffern
 | _Wie viel_ Ware liegt im Schnitt, z. B. über ein Jahr hinweg, im Lager?
 | Summe der Lagerbestandswerte +
   ÷ +
-  Anzahl der Lagerbestandswerte
+  Anzahl der Lagerbestandswerte +
+  --- +
+  Bestellmenge / 2 + Sicherheitsbestand
 
 | Umschlagshäufigkeit
 | Anzahl bezogen auf ein Jahr
@@ -64,7 +66,7 @@ Wie effektiv die Lagerhaltung ist lässt sich an nachstehneden _Lagerkennziffern
   Durchschnittlicher Lagerbestand
 
 | Durchschnittlicher Lagerdauer
-| Zeitspanne in Tagen oder Monaten
+| Zeitspanne in Tagen
 | _Wie lange_ ist die Ware im durchschnitt eingelagert, bis sie das Lager verlässt?
 | 360 +
   ÷ +
@@ -102,6 +104,18 @@ Die _optimale Bestellmenge_ ist also ein Kompromiss aus _Bestell-_ und _Lagerkos
 . Mindestmengenabnahme
 . Mengenrabatt
 . Verfügbarkeit
+
+
+== Zinskosten (Kaptitalbindungskosten)
+Geld was an anderer Stelle gebraucht wird (Reparaturen, Mitarbeiter, …) wird im Lager gebunden (Kaptitalbindung), dadurch fehlt Geld, ein Kredit ist also notwendig, hierzu fallen wiederrum Zinsen an
+
+
+== Sicherheitsbestand
+.Gründe
+* fehlerhafte Ware
+* verspäteter	Wareneingang
+* Lieferengpässe (Streik, Stau,	Umweltkatastrophen,	Corona, …)
+* Verkaufsschwankungen
 
 
 == Visualisierung Lagerbestandsveränderung

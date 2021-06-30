@@ -1,0 +1,39 @@
+main
+  & > nav
+    position: sticky
+    top: 0
+    padding: .35rem
+    background: transparentize($color-white, .3)
+    backdrop-filter: blur(10px)
+
+    ul
+      padding: 0
+      text-align: center
+
+      li
+        display: inline
+        $grey: darken($color-white, 70)
+
+        & + li
+          margin-left: .5rem
+
+          &::before
+            content: '•'
+            color: $grey
+            padding-right: .5rem
+
+        a
+          transition: border .3s, color .3s
+          color: $grey
+          text-transform: uppercase
+          font-weight: 600
+          letter-spacing: .5px
+
+          &:hover
+            text-decoration: none
+            transition: border .3s, color .3s
+            // $border: .3rem dotted darken($color-red, 15)
+            $border: .3rem dotted transparentize($color-blue, .35)
+            border-top: $border
+            border-bottom: $border
+            color: darken($color-blue, 10)

@@ -1,0 +1,39 @@
+= Mediengestalter Digital und Print: Zwischenprüfung 2021
+
+:author: David Wolf
+
+10172 — David Wolf
+
+
+== Entwicklerumgebung
+|===
+| Art | Software | Version
+
+| Betriebssystem
+| Windows 10 Pro
+| 19041.867
+
+.2+| Browser
+| https://www.opera.com/de/computer/beta[Opera Developer]
+| 76.0.3995.0
+
+| https://www.google.com/intl/de_de/chrome/[Google Chrome]
+| 89.0.4389.90
+|===
+
+Viewport-Optimierung für eine Breite von `1280px` (ebenso problemlos für höhere Auflösungen wie `1920px` geeignet), Gestaltungsumbruch für kleinere Gerätebreiten bei `1024px`.
+
+
+== Verwendete Fremdressourcen
+|===
+| Ressource | Version
+
+| https://necolas.github.io/normalize.css/[Normalize.css]
+| 8.0.1
+
+| https://jquery.com[jQuery]
+| 3.6.0
+
+| https://vuejs.org[Vue.js]
+| 2.6.12
+|===

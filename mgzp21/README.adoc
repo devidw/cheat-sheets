@@ -4,7 +4,6 @@
 
 10172 — David Wolf
 
-
 == Entwicklerumgebung
 |===
 | Art | Software | Version
@@ -37,3 +36,7 @@ Viewport-Optimierung für eine Breite von `1280px` (ebenso problemlos für höhe
 | https://vuejs.org[Vue.js]
 | 2.6.12
 |===
+
+---
+
+https://devidwolf.github.io/edu/mgzp21[Live]

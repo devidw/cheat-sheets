@@ -39,4 +39,4 @@ Viewport-Optimierung für eine Breite von `1280px` (ebenso problemlos für höhe
 
 ---
 
-https://devidwolf.github.io/edu/mgzp21[Live]
+https://devidwolf.github.io/edu/mgzp21/[Live]

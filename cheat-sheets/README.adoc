@@ -1,7 +1,3 @@
 = Cheat Sheets
 
 See https://🤓🖕.ml[🤓🖕.ml]
-
----
-
-https://devidwolf.github.io/edu/cheat-sheets/[GitHub BackUp Link]

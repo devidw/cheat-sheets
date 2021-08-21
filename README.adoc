@@ -13,8 +13,7 @@ Status]]
 
 | Cheat Sheets
 | Static Hugo website for writing and publishing cheat sheets in preparation for class tests
-| https://🤓🖕.ml[🤓🖕.ml] +
-  https://devidwolf.github.io/edu/cheat-sheets/[/edu/cheat-sheets]
+| https://🤓🖕.ml[🤓🖕.ml]
 | `cheat-sheets`
 
 | Website: Corax

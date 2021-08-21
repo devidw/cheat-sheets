@@ -1,8 +1,9 @@
 baseURL = "https://xn--cz8h19c.ml/"
 languageCode = "de-de"
-title = "🤓🖕.ml"
+title = "Cheat Sheets"
+description = "Lernzettel für Klassenarbeiten der Berufsschule bei der Ausbildung zum Mediengestalter Digital und Print."
 
-theme = 'hugo-theme-fuji-master'
+theme = 'fuji'
 
 
 [params]

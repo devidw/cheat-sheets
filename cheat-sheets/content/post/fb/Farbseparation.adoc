@@ -1,0 +1,165 @@
+---
+title: "Farbseparation"
+date: 2021-08-21
+tags: ["fb"]
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Mittwoch, 25. August 12021 HE
+
+| Inhaltliche Quellen
+a|
+* Arbeitsblatt „Farbseparation UCR, GCR“
+* https://de.wikipedia.org/wiki/Farbseparation[Wikipedia Farbseparation]
+* https://de.wikipedia.org/wiki/Buntaufbau[Wikipedia Buntaufbau]
+* https://de.wikipedia.org/wiki/Unbuntaufbau[Wikipedia Unbuntaufbau]
+|===
+
+
+== Notwendigkeit für den Druck
+Ausgangssituation ist immer, wir wollen irgendetwas drucken, haben also Druckdaten für den Druck. +
+Im klassische Vierfarbendruck wird mit Cyan, Magenta, Gelb und Schwarz gedruckt. Wollen wir nun also drucken, müssen wir sicherstellen, dass unsere Druckdaten dem Farbmodell `CMYK` entsprechen und in dessen Farben `Cyan`, `Magenta`, `Gelb` und `Schwarz` getrennt werden. Diese Trennung wird dann _Farbseparation_ genannt, denn was hier passiert ist die Trennung der Farben in einzelne, separate Druckfarben. +
+Auf Basis dieser separierten Farbdefinitionen im CMYK-Farbraum ist der Drucker dann letztendlich in der Lage seine einzelnen Druckwerke für die vier Farben mit den entsprechenden Daten der jeweiligen Druckfarbe richtig anzusteuern.
+
+Die Farben in unseren ursprünglichen Arbeitsdaten können vielfältig definiert sein, hierzu konkrete Beispiele in der nachstehenden Tabelle, die für den Druck dann alle entsprechend einer Farbseparation unterzogen werden müssen.
+
+Die Farbseparation kann zum Beispiel in folgender Software durchgeführt werden:
+
+* Adobe Photoshop
+* Adobe InDesign
+* QuarkXPress
+
+.Unterschiede der Farben in Daten und Druck
+|===
+| Farben in den Daten | Farben im Druck
+
+a|
+* zusammengesetzte Farbkanäle
+* RGB-Farbmodell
+* Sonderfarben
+** Pantone
+** HKS
+** RAL
+* andere Farbdefinitionen
+* nicht digital
+
+a|
+* CMYK-Farbmodell
+|===
+
+.Beispiele
+|===
+| RGB | CMYK
+
+| image:https://upload.wikimedia.org/wikipedia/commons/c/ce/Barn_grand_tetons_rgb_separation.jpg[]
+The original uploader was Mike1024 at English Wikipedia., Public domain, via Wikimedia Commons
+
+| image:https://upload.wikimedia.org/wikipedia/commons/c/c3/CMYK-separation.png[]
+|===
+
+
+== Herausforderungen
+Theoretisch ist die Umrechnung von additiven Lichtfarben (Rot, Grün, Blau) zu subtraktiven Druckfarben (Cyan, Magenta, Yellow) einfach und sauber.
+
+Diese Theorie setzt allerdings sogenannte _Optimalfarben_ voraus, die es so in der Wirklichkeit nicht gibt. Es handelt sich also um ein rein theoretisches Modell. In diesem theoretischen Modell wird angenommen, dass die Farben ihren Anteil innerhalb des sichtbaren Lichtes perfekt reflektieren und den übrigen Anteil perfekt absorbieren, was aber nicht der Fall ist. Das Spektrum dieses Modells ist wäre rechteckig, wobei das tatsächliche Farbspektrum – so wie es unsere Augen wahrnehmen – mit Kurven beschrieben werden muss, um der Realität gerecht zu werden.
+
+|===
+| Theorie | Praxis
+
+a|
+image:https://upload.wikimedia.org/wikipedia/commons/1/19/Spectral-lines-continuous.svg[]
+https://commons.wikimedia.org/wiki/File:Spectral-lines-continuous.svg[Stkl], Public domain, via Wikimedia Commons
+
+a|
+image:https://upload.wikimedia.org/wikipedia/commons/9/91/V-lambda-phot-scot.svg[]
+https://commons.wikimedia.org/wiki/File:V-lambda-phot-scot.svg[HHahn], https://creativecommons.org/licenses/by-sa/3.0[CC BY-SA 3.0], via Wikimedia Commons
+|===
+
+=== Unvollkommenheiten und deren Korrekturen
+Als _Unvollkommenheit_ wird die Summe der Abweichungen von den theoretischen Optimalfarben zu den realen Prozessfarben beschrieben.
+
+==== Unvollkommenheiten
+|===
+| Abweichung | Beschreibung | Beispiele
+
+a| Verschwärzlichung
+
+* mangelhafte Hauptreflexion
+* Nebenabsorption
+| Keine vollkommende Reflexion in den Hauptbereichen, stattdessen gepaart mit Absorption
+a|
+* Cyan am stärksten
+* Gelb am schwächsten
+
+a| Verweißlichung
+
+* mangelhafte Hauptabsorption
+* Nebenreflexion
+| Keine vollkommende Absorption in den Hauptbereichen, stattdessen gepaart mit Reflexion
+a|
+
+a| Bunttonfehler
+
+* Buttonverschiebung
+| Abweichungen in den Bunttönen
+a|
+* Magenta am stärksten -> rötlicher
+* Cyan -> bläulicher
+* Gelb weicht kaum ab
+|===
+
+==== Basiskorrektur
+|===
+| Farbe | Korrektur
+
+| Verantwortlich für Verweißlichung
+| + +
+  Tonwert erhöhen
+| Verantwortlich für Verschwärzlichung
+| - +
+  Tonwert verringern
+|===
+
+
+==== Graubalancekorrektur
+[.c-m]#`Magenta`# und [.c-y]#`gelb`# soweit verringern, dass die Farben ins Gleichgeweicht kommen und zusammen unbunt ergeben und nicht zu `braun` werden.
+
+
+== Buntaufbau (UCR)
+|===
+| UCR | Under Color Removal
+| Cyan, Magenta, Yellow | volle Farbauszüge
+| Schwarz | Skelett-Farbauszug
+|===
+
+== Unbuntaufbau (GCR)
+|===
+| GCR | Grey Component Replacement
+| Cyan, Magenta, Yellow | Skelett-Farbauszüge
+| Schwarz | voller Farbauszug
+|===
+
+
+== Vergleich zwischen Buntaufbau und Unbuntaufbau
+|===
+| Buntaufbau (UCR) | Unbuntaufbau (GCR)
+
+| hoher Farbverbrauch
+| geringerer Farbverbrauch
+
+| Trocknungsprobleme
+| weniger Trocknungsprobleme
+
+| fehlerhafte Bögen
+| weniger fehlerhafte Bögen
+
+| schlechtere Bildwiedergabe
+| verbesserte Bildwiedergabe
+
+|
+| Wesentliche Stabilisierung des Druckprozesses
+|===

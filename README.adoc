@@ -12,8 +12,9 @@ Status]]
 | `mgzp21`
 
 | Cheat Sheets
-| Static Hugo website for writing and publishing cheat sheets in preparation for class tests 
-| https://🤓🖕.ml[🤓🖕.ml]
+| Static Hugo website for writing and publishing cheat sheets in preparation for class tests
+| https://🤓🖕.ml[🤓🖕.ml] +
+  https://devidwolf.github.io/edu/cheat-sheets/[devidwolf.github.io/edu/cheat-sheets]
 | `cheat-sheets`
 
 | Website: Corax

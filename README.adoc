@@ -3,4 +3,21 @@
 https://app.netlify.com/sites/mg9/deploys[image:https://api.netlify.com/api/v1/badges/c4555835-cbbc-4f6a-ba81-f29b44801115/deploy-status[Netlify
 Status]]
 
-https://🤓🖕.ml[🤓🖕.ml]
+|===
+| Project | Details | Live | Source Directory
+
+| „Mediengestalter Zwischenprüfung“
+| Practical exam results
+| https://devidwolf.github.io/edu/mgzp21/[devidwolf.github.io/edu/mgzp21]
+| `mgzp21`
+
+| Cheat Sheets
+| Static Hugo website for writing and publishing cheat sheets in preparation for class tests 
+| https://🤓🖕.ml[🤓🖕.ml]
+| `cheat-sheets`
+
+| Website: Corax
+| A school exercise for building a bootstrap powerd website for a fictional company
+| https://devidwolf.github.io/edu/website-corax/[devidwolf.github.io/edu/website-corax]
+| `website-corax`
+|===

@@ -63,7 +63,7 @@ The original uploader was Mike1024 at English Wikipedia., Public domain, via Wik
 
 
 == Herausforderungen
-Theoretisch ist die Umrechnung von additiven Lichtfarben (Rot, Grün, Blau) zu subtraktiven Druckfarben (Cyan, Magenta, Yellow) einfach und sauber.
+Theoretisch ist die Umrechnung von additiven Lichtfarben (Rot, Grün, Blau) zu subtraktiven Druckfarben (Cyan, Magenta, Gelb) einfach und sauber.
 
 Diese Theorie setzt allerdings sogenannte _Optimalfarben_ voraus, die es so in der Wirklichkeit nicht gibt. Es handelt sich also um ein rein theoretisches Modell. In diesem theoretischen Modell wird angenommen, dass die Farben ihren Anteil innerhalb des sichtbaren Lichtes perfekt reflektieren und den übrigen Anteil perfekt absorbieren, was aber nicht der Fall ist. Das Spektrum dieses Modells ist wäre rechteckig, wobei das tatsächliche Farbspektrum – so wie es unsere Augen wahrnehmen – mit Kurven beschrieben werden muss, um der Realität gerecht zu werden.
 
@@ -126,40 +126,67 @@ a|
 
 
 ==== Graubalancekorrektur
-[.c-m]#`Magenta`# und [.c-y]#`gelb`# soweit verringern, dass die Farben ins Gleichgeweicht kommen und zusammen unbunt ergeben und nicht zu `braun` werden.
+`Magenta` und `Gelb` soweit verringern, dass die Farben ins Gleichgeweicht kommen und zusammen unbunt ergeben und nicht zu `Braun` werden.
 
 
-== Buntaufbau (UCR)
+== Aufbau
+Die 3 Farben `Cyan`, `Magenta`, `Gelb` ergänzen sich beim Druck zu einem `Braun` und selbst bei Graubalancekorrektur ergeben sie `Grau` und eben nicht `Schwarz`. Aus diesem Grund wird `Schwarz` als eigene (Hilfs-)Druckfarbe mitgedruckt. Der Druck von den 3 Farben plus `Schwarz` hat jedoch folgende Probleme mit sich:
+
+* Farbannahmeprobleme
+* lange Trocknung -> Schlierenbildung
+
+Um diese Probleme zu minimieren kann grundlegend aus 2 verschiedenen Lösungswegen des Farbaufbaues gewählt werden: _Buntaufbau_ oder _Unbuntaufbau_.
+
+[quote, Wikipedia]
+Wenn man ein Bild malen will, gibt es zwei extreme Möglichkeiten. Der Maler kann sich auf seiner Palette für jede Bildstelle die gewünschte Farbnuance mischen und dann ins Bild auftragen. Er kann aber auch zuerst ein Schwarzweißbild malen, das er anschließend koloriert. So wurden früher die kolorierten Kupferstiche hergestellt. Die erste geschilderte Methode entspricht dem Buntaufbau, die zweite entspricht dem Unbuntaufbau.
+
+Durch einen Farbaufbau mittels _UCR_ oder _GCR_ werden folgende Vorteile gewährleistet:
+
+* geringerer Farbverbrauch
+* weniger Trocknungsprobleme
+* weniger fehlerhafte Bögen
+* verbesserte Bildwiedergabe
+* Wesentliche Stabilisierung des Druckprozesses
+
+=== Buntaufbau (UCR)
+[cols=2]
 |===
-| UCR | Under Color Removal
-| Cyan, Magenta, Yellow | volle Farbauszüge
-| Schwarz | Skelett-Farbauszug
+| UCR
+a| **U**nder **C**olor **R**emoval
+
+* Unterfarbenentfernung
+* Buntfarbenentfernung
+| Cyan, Magenta, Gelb
+| Der Farbaufbau erfolgt durch Mischung der drei Primärfarben `Cyan`, `Magenta`, `Gelb`.
+
+| Schwarz
+a|
+* unterstützt lediglich in unbuten, dunklen Bildbereichen.
+* aka Skelett-Farbauszug, Bildgerippe
 |===
 
-== Unbuntaufbau (GCR)
+* helle, bunte Bildstellen unverändert
+* dunklere, unbunte Bildstellen Tonwerte von `CMY` verringern und `K` erhöhen
+
+image::/img/ucr.png[UCR Diagramm]
+
+// ----
+// Tertiärfarben = Mischung aus den Primärfarben (Cyan, Magenta, Gelb)
+// ----
+
+=== Unbuntaufbau (GCR)
+[cols=2]
 |===
-| GCR | Grey Component Replacement
-| Cyan, Magenta, Yellow | Skelett-Farbauszüge
+| GCR
+a| **G**rey **C**omponent **R**eplacement
+
+* Schwarzaufbau
+| Cyan, Magenta, Gelb | Skelett-Farbauszüge
 | Schwarz | voller Farbauszug
 |===
 
+Farbaufbau nach dem Grundsatz, dass bunte Primärfarbe und Sekundärfarbe durch beifügen von unbuntem `Grau` an Buntheit verlieren.
 
-== Vergleich zwischen Buntaufbau und Unbuntaufbau
-|===
-| Buntaufbau (UCR) | Unbuntaufbau (GCR)
-
-| hoher Farbverbrauch
-| geringerer Farbverbrauch
-
-| Trocknungsprobleme
-| weniger Trocknungsprobleme
-
-| fehlerhafte Bögen
-| weniger fehlerhafte Bögen
-
-| schlechtere Bildwiedergabe
-| verbesserte Bildwiedergabe
-
-|
-| Wesentliche Stabilisierung des Druckprozesses
-|===
+// ----
+// Tertiärfarben = Primärfarbe, Sekundärfarbe + Unbunte Farbe
+// ----

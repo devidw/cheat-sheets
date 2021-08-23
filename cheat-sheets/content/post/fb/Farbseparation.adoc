@@ -51,6 +51,16 @@ a|
 * CMYK-Farbmodell
 |===
 
+=== Farbmodelle
+[cols=2]
+|===
+| Additiv (RGB) | Subtraktiv (CMYK)
+
+| Alle Farben _addieren_ sich zu `weiß`
+
+| Alle Farben _subtrahieren_ sich zu `weiß`
+|===
+
 .Beispiele
 |===
 | RGB | CMYK
@@ -168,6 +178,7 @@ a|
 * helle, bunte Bildstellen unverändert
 * dunklere, unbunte Bildstellen Tonwerte von `CMY` verringern und `K` erhöhen
 
+.Tonwertsumme ohne UCR => 359%, mit UCR => 310%
 image::/img/ucr.png[UCR Diagramm]
 
 // ----

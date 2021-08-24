@@ -81,7 +81,7 @@ Theoretisch ist die Umrechnung von additiven Lichtfarben (Rot, Grün, Blau) zu s
 .Umrechnung von `RGB`- zu `CMY`-Werten
 [source, python]
 ----
-def cmy2rgb(rgb):
+def rgb2cmy(rgb):
   """convert RGB color values to CMY color values"""
   return (255 - rgb) / 255 * 100
 

@@ -17,6 +17,7 @@ a|
 * https://de.wikipedia.org/wiki/Farbseparation[Wikipedia Farbseparation]
 * https://de.wikipedia.org/wiki/Buntaufbau[Wikipedia Buntaufbau]
 * https://de.wikipedia.org/wiki/Unbuntaufbau[Wikipedia Unbuntaufbau]
+* https://mediencommunity.de/node/4077[Mediencommunity 2.0 Thixotropie]
 |===
 
 
@@ -41,7 +42,7 @@ a|
 * zusammengesetzte Farbkanäle
 * RGB-Farbmodell
 * Sonderfarben
-** Pantone
+** Pantone (14 Grundfarben; mehr als 1000 weitere Farben daraus mischbar)
 ** HKS
 ** RAL
 * andere Farbdefinitionen
@@ -59,6 +60,8 @@ a|
 | Alle Farben _addieren_ sich zu `weiß`
 
 | Alle Farben _subtrahieren_ sich zu `weiß`
+
+2+| image:/img/6-teiliger-farbkreis_black.svg[Farbkreis, width=100%]
 |===
 
 .Beispiele
@@ -74,6 +77,18 @@ The original uploader was Mike1024 at English Wikipedia., Public domain, via Wik
 
 == Herausforderungen
 Theoretisch ist die Umrechnung von additiven Lichtfarben (Rot, Grün, Blau) zu subtraktiven Druckfarben (Cyan, Magenta, Gelb) einfach und sauber.
+
+.Umrechnung von `RGB`- zu `CMY`-Werten
+[source, python]
+----
+def cmy2rgb(rgb):
+  """convert RGB color values to CMY color values"""
+  return (255 - rgb) / 255 * 100
+
+cmy2rgb(0) # 100
+cmy2rgb(128) # 50
+cmy2rgb(255) # 0
+----
 
 Diese Theorie setzt allerdings sogenannte _Optimalfarben_ voraus, die es so in der Wirklichkeit nicht gibt. Es handelt sich also um ein rein theoretisches Modell. In diesem theoretischen Modell wird angenommen, dass die Farben ihren Anteil innerhalb des sichtbaren Lichtes perfekt reflektieren und den übrigen Anteil perfekt absorbieren, was aber nicht der Fall ist. Das Spektrum dieses Modells ist wäre rechteckig, wobei das tatsächliche Farbspektrum – so wie es unsere Augen wahrnehmen – mit Kurven beschrieben werden muss, um der Realität gerecht zu werden.
 
@@ -178,12 +193,14 @@ a|
 * helle, bunte Bildstellen unverändert
 * dunklere, unbunte Bildstellen Tonwerte von `CMY` verringern und `K` erhöhen
 
-.Tonwertsumme ohne UCR => 359%, mit UCR => 310%
-image::/img/ucr.png[UCR Diagramm]
+.Beispiel
+[cols=2]
+|===
+.2+| image:/img/ucr.png[UCR Diagramm]
+| Tonwertsumme ohne UCR => 359%
+| Tonwertsumme mit UCR => 310%
+|===
 
-// ----
-// Tertiärfarben = Mischung aus den Primärfarben (Cyan, Magenta, Gelb)
-// ----
 
 === Unbuntaufbau (GCR)
 [cols=2]
@@ -198,6 +215,45 @@ a| **G**rey **C**omponent **R**eplacement
 
 Farbaufbau nach dem Grundsatz, dass bunte Primärfarbe und Sekundärfarbe durch beifügen von unbuntem `Grau` an Buntheit verlieren.
 
-// ----
-// Tertiärfarben = Primärfarbe, Sekundärfarbe + Unbunte Farbe
-// ----
+image:https://upload.wikimedia.org/wikipedia/commons/0/0b/GCR_Schema.png[GCR Diagramm]
+https://commons.wikimedia.org/wiki/File:GCR_Schema.png[Andreas-Martin Selignow], http://creativecommons.org/licenses/by-sa/3.0/[CC BY-SA 3.0], via Wikimedia Commons
+
+
+
+== Fachbegriffe
+[cols='20,80']
+|===
+| Fachbegriff | Erklärung
+
+| Sekundärfarben
+a| Mischergebnis aus 2 der 3 Primärfarben.
+
+!===
+! Farben ! Additiv ! Subtraktiv
+
+! Primärfarben
+a!
+* Rot
+* Grün
+* Blau
+a!
+* Cyan
+* Magenta
+* Yellow
+
+! Sekundärfarben
+a!
+* Cyan
+* Magenta
+* Yellow
+a!
+* Rot
+* Grün
+* Blau
+!===
+
+| Thixotropie
+a|
+[quote, Mediencommunity 2.0]
+Eigenschaft einer Druckfarbe oder beliebigen anderen Substanz, durch mechanische Einwirkung wie Rühren, Schütteln oder Spachteln von einer festen oder pastösen Konsistenz in eine fließende Konsistenz überzugehen und im Ruhezustand wieder zu verfestigen.
+|===

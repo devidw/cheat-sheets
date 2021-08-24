@@ -90,7 +90,7 @@ rgb2cmy(128) # 50
 rgb2cmy(255) # 0
 ----
 
-Diese Theorie setzt allerdings sogenannte _Optimalfarben_ voraus, die es so in der Wirklichkeit nicht gibt. Es handelt sich also um ein rein theoretisches Modell. In diesem theoretischen Modell wird angenommen, dass die Farben ihren Anteil innerhalb des sichtbaren Lichtes perfekt reflektieren und den übrigen Anteil perfekt absorbieren, was aber nicht der Fall ist. Das Spektrum dieses Modells ist wäre rechteckig, wobei das tatsächliche Farbspektrum – so wie es unsere Augen wahrnehmen – mit Kurven beschrieben werden muss, um der Realität gerecht zu werden.
+Diese Theorie setzt allerdings sogenannte _Optimalfarben_ voraus, die es so in der Wirklichkeit nicht gibt. Es handelt sich also um ein rein theoretisches Modell. In diesem theoretischen Modell wird angenommen, dass die Farben ihren Anteil innerhalb des sichtbaren Lichtes perfekt reflektieren und den übrigen Anteil perfekt absorbieren, was aber nicht der Fall ist. Das Spektrum dieses Modells ist rechteckig, wobei das tatsächliche Farbspektrum – so wie es unsere Augen wahrnehmen – mit Kurven beschrieben werden muss, um der Realität gerecht zu werden.
 
 |===
 | Theorie | Praxis

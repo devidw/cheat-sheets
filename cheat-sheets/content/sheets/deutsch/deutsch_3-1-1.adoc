@@ -9,7 +9,7 @@ tags: ["deutsch"]
 [cols="25h,75"]
 |===
 | Prüfungstermin
-| 2021-08-29T19:26:12+02:00
+| Donnerstag, 16. September 12021 HE
 
 | Inhaltliche Quellen
 a|

@@ -1,6 +1,6 @@
 ---
 title: Wirtschaft - 3. Jahr, 1. Block
-date: 2021-08-29T19:26:24+02:00
+date: 2021-08-29
 tags: ["wirtschaft"]
 ---
 
@@ -9,7 +9,7 @@ tags: ["wirtschaft"]
 [cols="25h,75"]
 |===
 | Prüfungstermin
-| 2021-08-29T19:26:24+02:00
+| Mittwoch, 15. September 12021 HE
 
 | Inhaltliche Quellen
 a|

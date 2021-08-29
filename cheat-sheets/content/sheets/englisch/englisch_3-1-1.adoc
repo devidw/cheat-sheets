@@ -9,7 +9,7 @@ tags: ["englisch"]
 [cols="25h,75"]
 |===
 | Prüfungstermin
-| 2021-08-29T19:26:01+02:00
+| Dienstag, 14. September 12021 HE
 
 | Inhaltliche Quellen
 a|

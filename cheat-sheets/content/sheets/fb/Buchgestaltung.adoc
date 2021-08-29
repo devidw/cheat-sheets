@@ -1,0 +1,17 @@
+---
+title: "Buchgestaltung"
+date: 2021-08-29
+tags: ["fb"]
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Freitag, 10. September 12021 HE
+
+| Inhaltliche Quellen
+a|
+* …
+|===

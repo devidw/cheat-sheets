@@ -1,0 +1,17 @@
+---
+title: Wirtschaft - 3. Jahr, 1. Block
+date: 2021-08-29T19:26:24+02:00
+tags: ["fb"]
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| 2021-08-29T19:26:24+02:00
+
+| Inhaltliche Quellen
+a|
+* …
+|===

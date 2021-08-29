@@ -1,0 +1,17 @@
+---
+title: {{ .Name }}
+date: {{ .Date }}
+tags: ["fb"]
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| {{ .Date }}
+
+| Inhaltliche Quellen
+a|
+* …
+|===

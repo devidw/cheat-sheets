@@ -21,10 +21,10 @@ params:
     sidebarMobile:
       area:
         symbol:    '☰'
-        widgets:
-          - widget:  core/toc
-          - widget:  core/menusections
-          # - widget:  core/menu
+      widgets:
+        - widget:  core/toc
+        - widget:  core/menusections
+        # - widget:  core/menu
     headerTop:
       widgets:
         - widget:  core/breadcrumbs

@@ -4,7 +4,7 @@ hidden: true
 noindex: true
 ---
 
-a [at] hugoseotheme [dot] com +
+david [at] wolf [dot] gdn +
 David Wolf +
 Königsberger Straße 5 +
 51545 Waldbröl

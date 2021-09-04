@@ -92,7 +92,7 @@ tags: ["deutsch"]
 
 ##### Endungen
 \# | Person Singular | Endung Singular | Person Plural | Endung Plural
- | --- | --- | --- | ---
+--- | --- | --- | --- | ---
 1 | ich | e | wir | en
 2 | du | est | ihr | et
 3 | er/sie/es | e | sie | en
@@ -100,7 +100,7 @@ tags: ["deutsch"]
 
 #### Beispiele
 Indikativ | Konjunktiv 1 | Konjunktiv 2 | Konjunktiv mit würde
- | --- | --- | ---
+--- | --- | --- | ---
 ich muss | er müsse | er müsste | er würde müssen
 es scheint | es scheine | es schiene | es würde scheinen
 

@@ -2,4 +2,4 @@
 title: Cheat Sheets
 ---
 
-Lernzettel zur Vorbereitung für Klassenarbeiten der Berufsschule bei der Ausbildung zum Mediengestalter Digital und Print.
+Lernzettel zur Vorbereitung für *Klassenarbeiten* der Berufsschule und *Prüfungen* der IHK im Rahmen der Ausbildung zum Mediengestalter Digital und Print.

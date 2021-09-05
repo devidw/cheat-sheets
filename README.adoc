@@ -13,7 +13,9 @@ Status]]
 
 | Cheat Sheets
 | Static Hugo website for writing and publishing cheat sheets in preparation for class tests
-| https://🤓🖕.ml[🤓🖕.ml]
+a|
+* https://🤓🖕.ml[🤓🖕.ml] +
+* https://mg9.netlify.app[mg9.netlify.app]
 | `cheat-sheets`
 
 | Website: Corax

@@ -1,0 +1,203 @@
+---
+title: "Buchgestaltung + PDF/Acrobat"
+slug: buchgestaltung-pdf-acroat
+date: 2021-08-29
+---
+:toc:
+:table-caption!:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Freitag, 10. September 12021 HE
+
+| Inhaltliche Quellen
+a|
+* Arbeitsblatt „Satzanweisung“
+* https://www.typolexikon.de/titelei/[Titelei im Typolexikon, opts=nofollow]
+* https://www.typolexikon.de/anhang/[Anhang im Typolexikon, opts=nofollow]
+|===
+
+== Buchgestaltung
+
+=== Einbandtechniken
+
+=== Titelei
+[width="100%",cols="10%,30%,60%"]
+|===
+|Seite |Bezeichnung |Möglicher Inhalt
+
+|1
+|Schmutztitel
+a|
+
+* Buchtitel
+* Leerseite
+* Reihentitel
+* Verfasser
+* Verlag
+* Verlagssignet
+
+|2
+|Frontispiz
+a|
+* Abbildung
+* Autorenbiographie (bei Taschenbüchern)
+* Leerseite
+* Zu diesem Buch
+
+|3 |Haupttitel
+a|
+* Buchtitel
+* Erscheinungsjahr
+* Herausgeber
+* Übersetzer
+* Untertitel
+* Verfasser
+* Verlag
+* Verlagsort
+
+|4 |Impressum
+a|
+* Druckvermerk
+* Leerseite
+
+|5 |Dedikation
+a|
+* Widmung
+* Zitat
+
+|7 |Inhaltsverzeichnis
+a|
+* Inhaltsangabe mit Paginas
+
+|8 |Vakat
+a|
+* Leerseite
+
+|9 |Vorwort
+a|
+* Einführungstext
+* Vorbemerkung
+|===
+
+=== Anhang
+.Mögliche Inhalte
+* Abbildungsverzeichnis
+* Abkürzungsverzeichnis
+* Anmerkungen
+* Bemerkungen zu Bildtafeln
+* Bibliografie
+* Danksagungen
+* Dokumentenverzeichnis
+* Glossar
+* https://www.typolexikon.de/impressum-impressumspflicht/[Impressum, opts=nofollow]
+(nur bei buchähnlichen Publikationen, nicht bei Büchern)
+* Kommentare
+* Literaturempfehlungen
+* Literaturverzeichnis
+* Nachweise
+* Nachwort
+* Ortsverzeichnis
+* Personenverzeichnis
+* Publikationen
+* Quellenverzeichnis
+* Register (Index, Namen- und Sachwortverzeichnis)
+* Sachregister
+* Selbständigkeitserklärung
+* Stichwortverzeichnis
+* Symbolverzeichnis
+* Verlagswerbung
+* Weiterführende Informationen
+* Zitatverzeichnis
+* …
+
+=== Seitenformat
+.Ausrichtungen
+* Hochformat `Breite < Höhe`
+* Querformat `Breite > Höhe`
+
+.Verhältnisse
+* Goldener Schnitt `2:3`
+* DIN Reihe
+** A4
+** A5
+
+=== Satzanweisungen
+
++++
+<style>
+.smallcaps {
+  /* font-variant: small-caps; */
+  font-size: x-small;
+}
+</style>
++++
+
+.Terminologie
+[cols="30h,70"]
+|===
+| Auszeichnung
+a| Hervorhebungen durch Abhebung von der umliegenden Text-Erscheinung
+
+.Beispiele
+* _kursiv_
+* *fett*
+* K[.smallcaps]##APITÄLCHEN##
+* VERSALIEN
+
+| Paginierung
+.2+| Seitennummerierung, z. B. am unteren Rand der Seite
+| Pagina
+
+| Kolumnentitel
+| Zusätzlicher Text in der Kopf- und Fußzeile
+
+| Papierformat
+| Beschnittenes Endformat, angegeben in horizontaler und vertikaler Abmessung
+
+| Satzspiegel
+| Auf der Seite genutzte Fläche, da wo der meist der Text herum fließt, umgeben von den _Stegen_, angegeben in horizontaler und vertikaler Abmessung
+
+| Steg
+a| Rand um den _Satzspiegel_ herum, die _Stege_ umschließen den _Satzspiegel_
+
+[cols="1h,1,1h,1"]
+!===
+! Oben ! Kopfsteg ! Innen ! Bundsteg
+! Unten ! Fußsteg ! Außen ! Außensteg
+!===
+
+| Stand
+| Positionierung des Satzspiegels innerhalb des Formates
+
+| Grundlinenraster
+a| Einheitliche Linien der Schriftlinien
+
+.Vorteile
+* Zeilen auf gleicher Höhe auf mehreren Seiten
+** Doppelseiten
+** Vorder- & Rückseite
+* Nicht-Text-Inhalte wie bspw. Bilder sind zur Orientierung ebenfalls auf Zeilenhöhe zu setzen
+
+| Manuskript
+| Textliches Dokument, welches der Inhalt des Satzes ist
+|===
+
+
+== PDF/Acrobat
+
+=== Erstellung
+Möglichkeiten
+
+=== Einstellungen
+Settings
+
+=== Standards
+AE, X, …
+
+=== Preflight
+Was untersucht standardmäßig?
+
+=== Interaktivität
+Formulare, Buttons, …

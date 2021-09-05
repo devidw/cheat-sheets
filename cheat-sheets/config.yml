@@ -3,14 +3,13 @@ languageCode:  de-de
 title:         Cheat Sheets
 description:   Lernzettel zur Vorbereitung für Klassenarbeiten der Berufsschule bei der Ausbildung zum Mediengestalter Digital und Print.
 
-theme:
-  - hugo-theme-seo
-  - hugo-theme-component-asciidoctor-skin
+theme:             [hugo-theme-component-asciidoctor-skin, hugo-theme-seo]
+# theme:           [../../../../hugoseotheme/hugo-theme-component-asciidoctor-skin, ../../../../hugoseotheme/hugo-theme-seo]
 
 params:
   author:          David Wolf
   titleSeparator:  —
-  themeColor:      '#8b7d3a'
+  themeColor:      '#FF4500'
 
   # icons:
   #   favicon:       favicon.svg

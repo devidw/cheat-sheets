@@ -5,6 +5,8 @@ date: 2021-08-29
 ---
 :toc:
 :table-caption!:
+:experimental:
+
 
 [cols="25h,75"]
 |===
@@ -188,16 +190,96 @@ a| Einheitliche Linien der Schriftlinien
 == PDF/Acrobat
 
 === Erstellung
-Möglichkeiten
+Adobe Acrobat bietet zur PDF-Erstellung das Werkzeug btn:[Create PDF], welches folgende Optionen beinhaltet:
+
+.Create PDF
+. aus Dateien wie
+.. Word
+.. Excel
+.. Text
+. aus mehreren Dateien
+.. die bereits PDFs sind
+.. oder die direkt JIT zu PDFs werden
+. aus einer Bildschirmaufnahme
+.. eines Fensters
+.. einer eigenen Auswahl
+. von einem Scanner
+. von einer Internetadresse
+. aus der Zwischenablage
+. als leere Datei
+
 
 === Einstellungen
-Settings
+Adobe Acrobat Distiller erlaubt die Bearbeitung von PDFs anhand der sogenannten „Settings“, diese umfassen unter anderem:
+
+.Settings
+. Schriften
+.. Einbindung
+. Bilder
+.. Sampling
+.. Kompression
+.. Qualität
+. Farben
+.. Farbraum
+.. Druckprofil
 
 === Standards
-AE, X, …
+PDF wurde in verschiedenen Abwandlungen für den branchenspezifischen Einsatz spezialisiert, die einzelnen Spezifikationen werden durch die unterschiedlichen Formate beschrieben.
+
+.Formate
+|===
+| Standard | Einsatz
+
+| PDF/A
+| Archivierung
+
+| PDF/E
+| Engineering
+
+| PDF/X
+| Druckindustrie
+
+| PDF/UA
+| Barrierefreiheit
+|===
+
+=== Versionen
+
 
 === Preflight
-Was untersucht standardmäßig?
+Im Rahmen der Druckdatenkontrolle in der Druckvorstufe sollten folgende Parameter der zu prüfenden Datei auf entsprechende Richtigkeit geprüft werden, helfen kann hier vor allem das menu:Werkzeug[Druckproduktion > Preflight].
+
+* Farbraum
+* Farbprofil
+* Bildgröße
+* Rechtschreibung
+* Typografie
+* Anschnitt
+* PDF-Boxen
+* Haarlinien
+
 
 === Interaktivität
-Formulare, Buttons, …
+PDFs lassen sich durch verschiedene interaktive Elemente interaktiv gestalten, so lassen sich beispielsweise ganze Formulare erbauen, Formularfelder sind beispielsweise:
+
+.Formularfelder
++++
+<p><input type="text" placeholder="Textfeld"></p>
+<p>
+  <input type="radio" id="input-radio-id-1" name="input-radio-name">
+  <label for="input-radio-id-1">Radio-Button</label>
+  <input type="radio" id="input-radio-id-2" name="input-radio-name">
+  <label for="input-radio-id-2">Radio-Button</label>
+</p>
+<p>
+  <input type="checkbox" id="input-checkbox">
+  <label for="input-checkbox">Checkbox</label>
+</p>
+<p>
+  <select>
+    <option>Drop Down Option</option>
+    <option>Drop Down Option</option>
+    <option>Drop Down Option</option>
+  </select>
+</p>
++++

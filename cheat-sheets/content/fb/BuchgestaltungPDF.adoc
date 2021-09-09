@@ -66,8 +66,8 @@ image::/img/buch-einband-aufbau.png[Bucheinband Aufbau]
 .Allgemeine Seitenbezeichnungen
 [cols="1h,1"]
 |===
-| Recto | Rechte Seite
-| Verso | Linke Seite
+| Recto | Rechte Seite einer Doppelseite
+| Verso | Linke Seite einer Doppelseite
 | Vakat | Leere Seite
 |===
 
@@ -97,7 +97,7 @@ a|
 | Herkunftsangabe; Erscheinungsvermerk
 
 | Dedikationstitel
-| Widmung
+| Widmung(en)
 
 | Inhaltsverzeichnis
 | Inhalts- und Seitenangaben
@@ -181,6 +181,9 @@ SeitenBreite:SeitenHöhe => Seitenverhältnis
 .Terminologie
 [cols="30h,70"]
 |===
+| Absatzformat
+| Sammlung von Attributen die die Erscheinung eines Absatzes definieren, wobei das Format absatzübergreifend definiert ist und auf eine unbegrenzte Anzahl von Absätzen angewandt werden kann, Änderungen wirken sich hierbei direkt auf alle verknüpften Absätze aus.
+
 | Auszeichnung
 a| Hervorhebungen durch Abhebung von der umliegenden Text-Erscheinung
 
@@ -193,6 +196,9 @@ a| Hervorhebungen durch Abhebung von der umliegenden Text-Erscheinung
 | Paginierung
 .2+| Seitennummerierung, z. B. am unteren Rand der Seite
 | Pagina
+
+| Mediävalziffern
+| Ziffern, die eine Ober- oder Unterlängen besitzen
 
 | Kolumnentitel
 | Zusätzlicher Text in der Kopf- und Fußzeile
@@ -262,8 +268,8 @@ Adobe Acrobat Distiller erlaubt die Bearbeitung von PDFs anhand der sogenannten 
 .. Kompression
 .. Qualität
 . Farben
-.. Farbraum
-.. Druckprofil
+.. Farbraum (CMYK, RGB)
+.. Farbprofil
 
 === Standards
 PDF wurde in verschiedenen Abwandlungen für den branchenspezifischen Einsatz spezialisiert, die einzelnen Spezifikationen werden durch die unterschiedlichen Formate beschrieben.
@@ -282,6 +288,12 @@ PDF wurde in verschiedenen Abwandlungen für den branchenspezifischen Einsatz sp
 
 | PDF/UA
 | Barrierefreiheit
+
+| PDF/H
+a| Health Care Industry
+
+.Zum Beispiel
+* Patientendaten
 |===
 
 === Versionen
@@ -310,20 +322,32 @@ AdobeAcrobat.version.major === PDF.version.minor + 1
 === Preflight
 Im Rahmen der Druckdatenkontrolle in der Druckvorstufe sollten folgende Parameter der zu prüfenden Datei auf entsprechende Richtigkeit geprüft werden, helfen kann hier vor allem das menu:Werkzeug[Druckproduktion > Preflight].
 
-* Farbraum
-* Farbprofil
-* Bildgröße
-* Rechtschreibung
-* Typografie
-* Anschnitt
-* PDF-Boxen
-* Haarlinien
+* *Automatisch*
+** PDF-Standard
+** PDF-Version
+** Farbraum
+** Farbprofil
+** Bildgröße
+** Anschnitt
+** PDF-Boxen
+** Haarlinien
+* *Optische Kontrolle*
+** Rechtschreibung
+** Verschiebungen von Elementen
+** Typografie
 
 
 === Interaktivität
 PDFs lassen sich durch verschiedene interaktive Elemente interaktiv gestalten, so lassen sich beispielsweise Formulare erbauen, zusammengehörige Formularfelder beinhalten beispielsweise:
 
-.Formularfelder
+* Hyperlinks
+** Web-Links
+** E-Mail (`mailto`)
+* Medien-Inhalte
+** Video
+** Audio
+
+.Interaktive Elemente
 +++
 <p><input type="text" placeholder="Textfeld"></p>
 <p>

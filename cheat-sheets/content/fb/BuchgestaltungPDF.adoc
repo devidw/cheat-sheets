@@ -30,6 +30,20 @@ a|
 image::/img/einband.png[Bucheinband Aufbau]
 
 ==== Broschur
+
+.Beispiele
+[cols=2]
+|===
+| Schweizer Broschur
+| image:/img/IMG-20210903-WA0001~2.jpg[]
+
+| Eurobind Broschur
+| image:/img/IMG-20210903-WA0001~3.jpg[]
+
+| Otabind Broschur
+| image:/img/IMG-20210903-WA0001~4.jpg[]
+|===
+
 ===== Einzelblattbroschur
 |===
 | Spiralbindung | Plastikkamm

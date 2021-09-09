@@ -4,8 +4,11 @@ slug: buchgestaltung-pdf-acroat
 date: 2021-08-29
 ---
 :toc:
+// :toclevels: 5
 :table-caption!:
+:figure-caption!:
 :experimental:
+:stem:
 
 
 [cols="25h,75"]
@@ -23,107 +26,146 @@ a|
 == Buchgestaltung
 
 === Einbandtechniken
+.Generellen Kategorisierung von Bindungen
+image::/img/einband.png[Bucheinband Aufbau]
+
+==== Broschur
+===== Einzelblattbroschur
+|===
+| Spiralbindung | Plastikkamm
+
+| image:/img/broschur-einzel-ring.png[Gerillte Broschuren]
+| image:/img/broschur-einzel-plastik.png[Gerillte Broschuren]
+|===
+
+===== Einlagige Broschur
+Stapel an Blättern wird zentral in der Mitte zusammengehalten.
+
+image::/img/broschur-einlagig.png[Einlagige Broschur]
+
+===== Mehrlagige Broschur
+Bei mehrlagigen Broschuren werden die Blätter am Rücken mit folgenden Methoden verbunden.
+
+.Rillungen
+// [cols="1h,1,1h,1"]
+|===
+| Zweifach gerillt | Vierfach gerillt
+
+| image:/img/broschuren-gerillt-2.png[Gerillte Broschuren]
+| image:/img/broschuren-gerillt-4.png[Gerillte Broschuren]
+|===
+
+==== Deckenband (Buch)
+Fester Einband aus steifen Pappdeckeln umgibt den Buchblock
+
+image::/img/buch-einband-aufbau.png[Bucheinband Aufbau]
+
 
 === Titelei
-[width="100%",cols="10%,30%,60%"]
+
+.Allgemeine Seitenbezeichnungen
+[cols="1h,1"]
 |===
-|Seite |Bezeichnung |Möglicher Inhalt
+| Recto | Rechte Seite
+| Verso | Linke Seite
+| Vakat | Leere Seite
+|===
 
-|1
-|Schmutztitel
-a|
+image::/img/titelei.png[Titelei]
 
-* Buchtitel
-* Leerseite
-* Reihentitel
-* Verfasser
-* Verlag
-* Verlagssignet
+.Titelei Seiten und Inhalte
+[cols="30%h,70%"]
+|===
+| Schmutztitel
+| Erste Seite eines Buches
 
-|2
-|Frontispiz
-a|
-* Abbildung
-* Autorenbiographie (bei Taschenbüchern)
-* Leerseite
-* Zu diesem Buch
+| Frontispiz
+| 2. Buchseite mit vollflächiger Abbildung (z. B. Illustration, Foto, …)
 
-|3 |Haupttitel
+|Haupttitel
 a|
 * Buchtitel
+* Untertitel
 * Erscheinungsjahr
 * Herausgeber
 * Übersetzer
-* Untertitel
 * Verfasser
 * Verlag
 * Verlagsort
 
-|4 |Impressum
-a|
-* Druckvermerk
-* Leerseite
+| Impressum
+| Herkunftsangabe; Erscheinungsvermerk
 
-|5 |Dedikation
-a|
-* Widmung
-* Zitat
+| Dedikationstitel
+| Widmung
 
-|7 |Inhaltsverzeichnis
-a|
-* Inhaltsangabe mit Paginas
+| Inhaltsverzeichnis
+| Inhalts- und Seitenangaben
 
-|8 |Vakat
-a|
-* Leerseite
-
-|9 |Vorwort
-a|
-* Einführungstext
-* Vorbemerkung
+| Vorwort
+| Einführung
 |===
 
 === Anhang
 .Mögliche Inhalte
-* Abbildungsverzeichnis
-* Abkürzungsverzeichnis
 * Anmerkungen
-* Bemerkungen zu Bildtafeln
-* Bibliografie
 * Danksagungen
-* Dokumentenverzeichnis
-* Glossar
-* https://www.typolexikon.de/impressum-impressumspflicht/[Impressum, opts=nofollow]
-(nur bei buchähnlichen Publikationen, nicht bei Büchern)
-* Kommentare
-* Literaturempfehlungen
-* Literaturverzeichnis
+* Empfehlungen
 * Nachweise
 * Nachwort
-* Ortsverzeichnis
-* Personenverzeichnis
 * Publikationen
-* Quellenverzeichnis
-* Register (Index, Namen- und Sachwortverzeichnis)
-* Sachregister
-* Selbständigkeitserklärung
-* Stichwortverzeichnis
-* Symbolverzeichnis
 * Verlagswerbung
-* Weiterführende Informationen
-* Zitatverzeichnis
-* …
+* Glossar
+* Verzeichnisse
+** Abbildungsverzeichnis
+** Abkürzungsverzeichnis
+** Dokumentenverzeichnis
+** Literaturverzeichnis
+** Ortsverzeichnis
+** Personenverzeichnis
+** Quellenverzeichnis
+** Stichwortverzeichnis
+** Symbolverzeichnis
+** Zitatverzeichnis
+
+=== Satzspiegel
+
+// stem:[[[a,b\],[c,d\]\]]
+
+[source]
+----
+Anteil Satzspiegel an Seite in % = (Breite Seitenspeiegel * Höhe Seitenspiegel) / (Breite Seite * Höhe Seite) * 100
+----
 
 === Seitenformat
-.Ausrichtungen
-* Hochformat `Breite < Höhe`
-* Querformat `Breite > Höhe`
 
-.Verhältnisse
-* Goldener Schnitt `2:3`
-* DIN Reihe
-** A4
-** A5
+==== Ausrichtungen
+
+===== Hochformat
+Von Hochformat ist immer dann die Rede wenn: `Breite < Höhe`.
+
+===== Querformat
+Von Querformat ist immer dann die Rede wenn: `Breite > Höhe`.
+
+
+==== Verhältnisse
+
+[source]
+----
+SeitenBreite:SeitenHöhe => Seitenverhältnis
+----
+
+===== Goldener Schnitt
+`2:3`
+
+===== DIN Reihe
+|===
+| Format | Abmessung (in mm) | Verhältnis
+
+| A4 | 210 &times; 297 | 1∶√2
+| A5 | 148 &times; 210 | 1∶√2
+| A6 | 105 &times; 148 | 1∶√2
+|===
 
 === Satzanweisungen
 
@@ -227,9 +269,8 @@ Adobe Acrobat Distiller erlaubt die Bearbeitung von PDFs anhand der sogenannten 
 PDF wurde in verschiedenen Abwandlungen für den branchenspezifischen Einsatz spezialisiert, die einzelnen Spezifikationen werden durch die unterschiedlichen Formate beschrieben.
 
 .Formate
+[cols="1h,1"]
 |===
-| Standard | Einsatz
-
 | PDF/A
 | Archivierung
 
@@ -244,7 +285,27 @@ PDF wurde in verschiedenen Abwandlungen für den branchenspezifischen Einsatz sp
 |===
 
 === Versionen
+Die _minor version_ plus 1 einer PDF-Version entspricht in der Regel der zugehörigen, zeitgleichen _major version_ des Adobe Produktes Acrobat.
 
+[source, JavaScript]
+----
+AdobeAcrobat.version.major === PDF.version.minor + 1
+----
+
+.Zusammenhang zwischen Acrobat- und PDF-Versionen
+|===
+| PDF | Adobe Acrobat
+
+| PDF 1.0 | Adobe Acrobat 1.x
+| PDF 1.1 | Adobe Acrobat 2.x
+| PDF 1.2 | Adobe Acrobat 3.x
+| PDF 1.3 | Adobe Acrobat 4.x
+| PDF 1.4 | Adobe Acrobat 5.x
+| PDF 1.5 | Adobe Acrobat 6.x
+| PDF 1.6 | Adobe Acrobat 7.x
+| PDF 1.7 | Adobe Acrobat 8; 9; X; XI
+| PDF 2.0 | Adobe Acrobat
+|===
 
 === Preflight
 Im Rahmen der Druckdatenkontrolle in der Druckvorstufe sollten folgende Parameter der zu prüfenden Datei auf entsprechende Richtigkeit geprüft werden, helfen kann hier vor allem das menu:Werkzeug[Druckproduktion > Preflight].
@@ -260,7 +321,7 @@ Im Rahmen der Druckdatenkontrolle in der Druckvorstufe sollten folgende Paramete
 
 
 === Interaktivität
-PDFs lassen sich durch verschiedene interaktive Elemente interaktiv gestalten, so lassen sich beispielsweise ganze Formulare erbauen, Formularfelder sind beispielsweise:
+PDFs lassen sich durch verschiedene interaktive Elemente interaktiv gestalten, so lassen sich beispielsweise Formulare erbauen, zusammengehörige Formularfelder beinhalten beispielsweise:
 
 .Formularfelder
 +++

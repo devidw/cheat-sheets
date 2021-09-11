@@ -1,3 +1,10 @@
 = Cheat Sheets
 
-See https://🤓🖕.ml[🤓🖕.ml]
+https://app.netlify.com/sites/mg9/deploys[image:https://api.netlify.com/api/v1/badges/c4555835-cbbc-4f6a-ba81-f29b44801115/deploy-status[Netlify Status]]
+
+Static Hugo website for writing and publishing cheat sheets in preparation for class tests
+
+See
+
+* https://🤓🖕.ml[🤓🖕.ml]
+* https://mg9.netlify.app[mg9.netlify.app]

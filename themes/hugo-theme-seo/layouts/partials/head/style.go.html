@@ -1,0 +1,17 @@
+<style media="screen">
+  {{(resources.Get "sass/import.sass" | resources.ToCSS | minify).Content | safeCSS}}
+
+  {{/* import stylesheets of all used widgets */}}
+  {{range .Site.Params.WidgetAreas}}
+  {{range .widgets}}
+    {{with .widget}}
+      {{$path := (print "sass/widgets/" . ".sass")}}
+      {{(resources.Get $path | resources.ToCSS | minify).Content | safeCSS}}
+      {{/*
+      {{if fileExists (print "themes/hugo-theme-seo/assets/" $path)}}
+      {{end}}
+      */}}
+    {{end}}
+    {{end}}
+  {{end}}
+</style>

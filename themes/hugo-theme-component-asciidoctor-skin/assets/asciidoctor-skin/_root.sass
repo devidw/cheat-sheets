@@ -1,0 +1,10 @@
+\:root
+  $schemes: (dark: $colors-dark, light: $colors-light)
+
+  @each $scheme, $colors in $schemes
+    @media (prefers-color-scheme: #{$scheme})
+      @each $name, $value in $colors
+        --color-#{$name}: #{$value}
+
+        @for $i from 1 through 9
+          --color-#{$name}-transparentize-#{$i}: #{transparentize($value, $i / 10)}

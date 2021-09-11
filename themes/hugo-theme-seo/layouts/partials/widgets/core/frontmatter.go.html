@@ -1,0 +1,9 @@
+{{ if .IsPage }}
+  {{ $frontmatter := "" }}
+  {{ if .Params.author }}
+    {{ $frontmatter := (print $frontmatter "author: " .Params.author) }}
+  {{ else if .Site.Params.author }}
+    {{ $frontmatter := (print $frontmatter "author: " .Site.Params.author) }}
+  {{ end }}
+  {{ highlight $frontmatter "yaml" "" }}
+{{ end }}

@@ -1,0 +1,142 @@
+---
+title: Textverständnis
+date: 2021-08-29T19:26:01+02:00
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Montag, 13. September 12021 HE
+
+// | Inhaltliche Quellen
+// a|
+// * …
+|===
+
+
+== Vocabulary
+
+|===
+| English | German
+
+| grain (direction) | Laufrichtung
+| to pay attention | achten auf
+| cross grain | quer zur Laufrichtung
+| strength | Stärke
+| contraction | Zusammenziehung
+| stable | stabil
+| spine | Rücken
+| fold | Falz/falzen
+| fiber particles | Faserpartikel
+| wavy | wellig
+| to bend | biegen
+| resistance | Widerstand
+| tear | Riss
+| torn | gerissen
+| moisture | Feuchtigkeit
+| curl | einrollen
+| straight | gerade
+| machine direction | Maschinenrichtung
+| arrow | Pfeil
+| headbox | Stoffauflauf
+| stretch direction | Dehnrichtung
+| short grain | Breitbahn
+| long grain | Schmalbahn
+| narrow | schmal
+| angle | Winkel
+| folding machine | Falzmaschine
+| crooked | schief
+| final size | Endformat
+| sufficient | ausreichend
+| trimming | Beschnitt
+| damaged | beschädigt
+| production group | Erzeunisgruppe
+| sheet brochure | Einzelblattbroschur
+| to collate | zusammentragen
+| bindng method | Bindeverfahren
+| spiral binding | Spiralbindung
+| comb binding | Kammbindung
+| ring binding | Ringbindung
+| single-layer brochure | Einlagenbroschur
+| folded sheet | Falzbogen
+| insetting | ineinanderstecken
+| cover | Umschlag
+| wire-stitching | Drahtheftung
+| multi-layer brochure | Mehrlagenbroschur
+| block | (Buch-)Block
+| thread-stiching | Fadenheftung
+| thread-sealing | Fadensiegeln
+| side stitching | seitliche Heftung
+| buckle folding | Taschenfalzung
+| folding rollers | Falzwalzen
+| buckle plate | Falztasche
+| to reach | erreichen
+| feed guide stop | Bogenanschlag
+| to determine | bestimmen
+| lead edge (of sheet) | Bogenvorderkante
+| to strike | treffen
+| (to) buckle | Wölbung/Stauchung/sich wölben/stauchen
+| excess | Überschuss
+| grabbed | gepackt
+| restricted | beschränkt
+| knife folding | Schwertfalzung
+| to plunge | stoßen
+| pinched | zusammengedrückt
+| preceding | vorhergehend
+| bone folder | Falzbein
+| to exert | ausüben
+| to revert | zurückkehren
+| coincidence | Zufall
+| table | Tabelle
+| crossfold | Kreuzfalz
+| parallel fold | Parallelfalz
+| types of folding | Falzarten
+| folding layouts | Falzschemata
+| two-panel brochure | 2-Blatt Broschüre
+| book printing | Werkdruck
+| panel | "Tafel" | Blatt
+| sheet | Blatt | Bogen
+| page | Seite
+| to raise | erhöhen
+| power | Potenz (mathematisch)
+| job printing | Akzidenzdruck
+| two-up | im Doppelnutzen
+| zigzag fold/accordeon fold | Zickzackfalz
+| hereby | hiermit
+| accordingly | folglich
+| letterfold | Wickelfalz
+| rolled | gewickelt
+| gatefold | Fensterfalz
+| flaps | Klappen
+| gap | Lücke/Spalt
+| book block | Buchblock
+| flat glued | gefälzelt
+| untrimmed size | unbeschnittenes Format
+| rounded | gerundet
+| pressed | (ab)gepresst
+| gauzed | begazt
+| backlined | hinterklebt
+| headbanded | mit Kap(i)talband versehen
+| cased | eingehängt
+| burned-in of joint | falzeingebrannt
+| pressed in form | formgepresst
+| work-and-back | Schön- udn Widerdruck
+| work-and-turn | Umschlagen
+| work-and-twist | Umdrehen
+| image carrier | Bildträger
+| to occupy | Raum einnehmen
+| front guide | Vordermarke
+| side guide | Seitenmarke
+| reader spread | Lesereihenfolge
+| printer spread | Druckreihenfolge
+| saddle-stitching | (Draht-)Rückenstichheftung
+| (to) staple | heften/Stapel
+| to appear | erscheinen
+| increment | Zuwachs
+| blank page | Leerseite
+| ink duct | Farbkasten
+| advice | Beratung
+| surface finishing | Druckveredelung
+|===

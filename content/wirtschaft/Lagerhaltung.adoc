@@ -1,0 +1,123 @@
+---
+title: "Lagerhaltung"
+date: 2021-05-08
+---
+
+:toc:
+
+Terminiert für *Mittwoch, 12. Mai 12021*
+
+
+== Lagerarten
+.Lagerarten
+|===
+| Prozessbereich | Lagerart | Erläuterung
+
+.2+| Materialwirtschaft
+| Wareneingangslager
+| Neu gelieferte Ware geht hier ein
+| Büromaterialien
+| Verbrauchsgegenstände des Bürobetriebs lagern hier
+
+.2+| Produktion
+| Zwischenlager
+| Für Ware die bereits bearbeitet wurde, den Fertigungsprozess aber noch nicht vollständig abgeschlossen hat
+| Ersatzteil- & Werkzeuglager
+| Lagerort für prozesserforderliches Equipment
+
+.2+| Absatz
+| Fertigwarenlager
+| Fertige aber noch unverkaufte Ware lagert hier
+| Versandlager
+| Verkaufte Ware die auf den Versand (z. B. Abholung per Spedition) wartet lagert hier
+|===
+
+
+== Lagerkosten
+.Lagerkosten
+. Gebäudekosten
+. Energiekosten
+. Wartungskosten
+. Unterhaltungskosten
+. Personalkosten
+. Zinskosten
+
+
+== Lagerkennziffern
+Wie effektiv die Lagerhaltung ist lässt sich an nachstehneden _Lagerkennziffern_ ausmachen:
+
+.Lagerkennziffern
+|===
+| Lagerkennziffer | Einheit | Erläuterung | Berechnung
+
+| Durchschnittlicher Lagerbestand
+| Summe in € oder Maßeinheit der Lagerware (m, l, kg, g)
+| _Wie viel_ Ware liegt im Schnitt, z. B. über ein Jahr hinweg, im Lager?
+| Summe der Lagerbestandswerte +
+  ÷ +
+  Anzahl der Lagerbestandswerte +
+  --- +
+  Bestellmenge / 2 + Sicherheitsbestand
+
+| Umschlagshäufigkeit
+| Anzahl bezogen auf ein Jahr
+| _Wie oft_ tauscht/erneut sich der Lagerbestand über einen Zeitraum von z. B. einem Jahr?
+| Materialverbrauch pro Jahr +
+  ÷ +
+  Durchschnittlicher Lagerbestand
+
+| Durchschnittlicher Lagerdauer
+| Zeitspanne in Tagen
+| _Wie lange_ ist die Ware im durchschnitt eingelagert, bis sie das Lager verlässt?
+| 360 +
+  ÷ +
+  Umschlagshäufigkeit
+|===
+
+.Vereinfachte Umrechnung in Tage
+|===
+| Zeitraum | in Tagen
+
+| 1 Monat  |  30 Tage
+| 1 Jahr   | 360 Tage
+|===
+
+
+== Optimale Bestellmenge
+
+Gegenüber stehen sich _Bestell-_ und _Lagerkosten_.
+
+Wer häufig bestellt, hat zwar hohe _Bestellkosten_ (Verwaltungsaufwand, Versandkosten, …), aber auf der anderen Seite geringe _Lagerkosten_ (siehe Lagerkosten), weil die Ware aufgrund der geringen zeitlichen Abstände zwischen den Bestellungen nur für kurze Zeit eingelagert werden muss, weshalb ein kleines Lager genügt.
+
+Wird hingegen nur selten bestellt, fallen die _Bestellkosten_ gering aus, die _Lagerkosten_ aber auf der anderen Seite extrem hoch, weil natürlich auch ein entsprechend großes Lager unterhalten werden muss.
+
+Die _optimale Bestellmenge_ ist also ein Kompromiss aus _Bestell-_ und _Lagerkosten_, und zwar genau dort, wo die Summe beider Kostenquellen am niedrigsten ausfällt.
+
+.Kosten
+. Lagerkosten (siehe Lagerkosten)
+. Bestellkosten
+.. Verwaltungskosten
+.. Transportkosten
+
+.Weitere Faktoren
+. Lagerkapazität
+. Transportkapazität
+. Mindestmengenabnahme
+. Mengenrabatt
+. Verfügbarkeit
+
+
+== Zinskosten (Kaptitalbindungskosten)
+Geld was an anderer Stelle gebraucht wird (Reparaturen, Mitarbeiter, …) wird im Lager gebunden (Kaptitalbindung), dadurch fehlt Geld, ein Kredit ist also notwendig, hierzu fallen wiederrum Zinsen an
+
+
+== Sicherheitsbestand
+.Gründe
+* fehlerhafte Ware
+* verspäteter	Wareneingang
+* Lieferengpässe (Streik, Stau,	Umweltkatastrophen,	Corona, …)
+* Verkaufsschwankungen
+
+
+== Visualisierung Lagerbestandsveränderung
+image::/img/lagerbestand_diagramm.svg[Lagerbestandsveränderungen]

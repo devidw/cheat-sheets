@@ -1,0 +1,7 @@
+{{ $here := .context }}
+
+{{ if (ne $here.Params.toc "false") }}
+
+  {{ $here.TableOfContents }}
+
+{{ end }}

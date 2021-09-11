@@ -1,0 +1,9 @@
+name = 'Hugo SEO Theme'
+description = 'Hugo SEO Theme for highest search engine ranking'
+homepage = 'https://hgoseotheme.com'
+tags = ['seo', 'widgets']
+features = ['seo', 'dark']
+
+[author]
+  name = 'David Wolf'
+  homepage = 'https://david.wolf.gdn'

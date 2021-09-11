@@ -1,0 +1,9 @@
+{{ $here := .context }}
+
+<a href="{{ $here.Site.BaseURL }}">
+  {{ if $here.Site.Params.logo }}
+    <img {{ with partial "func/dataURI.go.html" $here.Site.Params.logo }} {{ printf "src=%q" . | safeHTMLAttr }} {{ end }} alt="{{ $here.Site.Title }}">
+  {{ else }}
+    {{ $here.Site.Title }}
+  {{ end }}
+</a>

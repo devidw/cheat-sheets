@@ -1,3 +1,0 @@
-= Website: Corax
-
-See https://devidwolf.github.io/edu/website-corax/[live demo]

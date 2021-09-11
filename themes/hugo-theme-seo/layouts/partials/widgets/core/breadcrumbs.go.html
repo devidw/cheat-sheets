@@ -1,0 +1,22 @@
+{{ $here := .context }}
+
+{{ if not $here.IsHome }}
+  <nav>
+    <ol>
+      {{ template "breadcrumbs" (dict "p1" $here "p2" $here) }}
+    </ol>
+  </nav>
+{{ end }}
+
+{{ define "breadcrumbs" }}
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbs" (dict "p1" .p1.Parent "p2" .p2 )  }}
+  {{ else if not .p1.IsHome }}
+    {{ template "breadcrumbs" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+  {{ end }}
+  <li>
+    <a href="{{ .p1.Permalink }}" title="{{ .p1.Title }}" {{ if eq .p1 .p2 }} tabindex="-1" aria-current="location" {{ end }}>
+      {{ .p1.Title }}
+    </a>
+  </li>
+{{ end }}

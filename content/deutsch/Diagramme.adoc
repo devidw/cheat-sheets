@@ -1,0 +1,17 @@
+---
+title: Diagramme
+date: 2021-08-29T19:26:12+02:00
+tags: ["deutsch"]
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Mittwoch, 15. September 12021 HE
+
+| Inhaltliche Quellen
+a|
+* …
+|===

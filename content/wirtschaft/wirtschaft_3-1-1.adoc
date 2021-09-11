@@ -1,0 +1,16 @@
+---
+title: Investitionsrechnungen
+date: 2021-08-29
+---
+
+:toc:
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Freitag, 17. September 12021 HE
+
+| Inhaltliche Quellen
+a|
+* …
+|===

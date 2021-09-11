@@ -1,0 +1,55 @@
+table.tableblock,
+td.tableblock,
+table.grid-all,
+table.grid-all td.tableblock
+  border-color: color('border')
+  // border-width: $border-width / 2
+
+table
+  $secondary-color: base-lower-shade(color('block-txt'), color('block-bg'), 5)
+  background: color('block-bg')
+  color: color('block-txt')
+  border-radius: $border-radius
+  border-collapse: collapse
+
+  +box-shadow
+
+  th, th.tableblock
+    background: color('border')
+    border: none
+    color: color('block-txt')
+    // text-align: center
+
+    p
+      color: color('block-txt')
+
+  thead
+    // background: $secondary-color
+    // background: color('border')
+    background: transparent
+
+    tr
+      th
+        color: color('block-txt')
+
+        // &:first-of-type
+        //   border-top-left-radius: $border-radius
+        //
+        // &:last-of-type
+        //   border-top-right-radius: $border-radius
+
+  tbody
+    tr
+      &.even, &.alt, &:nth-of-type(even)
+        background: $secondary-color
+
+      // &:last-of-type
+      //   td
+      //     &:first-of-type
+      //       border-bottom-left-radius: $border-radius
+      //
+      //     &:last-of-type
+      //       border-bottom-right-radius: $border-radius
+
+      th, td
+        color: color('block-txt')

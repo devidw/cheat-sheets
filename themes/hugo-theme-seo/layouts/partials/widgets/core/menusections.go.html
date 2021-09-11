@@ -1,0 +1,35 @@
+{{ $here := .context }}
+
+<nav>
+  <ul>
+    {{ range $here.Site.RegularPages.GroupBy "Section" }}
+      {{ $section := $here.Site.GetPage "section" .Key }}
+      <!-- {{ . }} -->
+      <li>
+        <details {{ if eq $here.CurrentSection $section }} open="true" {{ end }}>
+          <summary>
+            {{ with $section }}
+              {{ with .Title }}
+                {{ . }}
+              {{ else }}
+                {{ $here.Site.Title }}
+              {{ end }}
+            {{ else }}
+              {{ .Key | title }}
+            {{ end }}
+          </summary>
+
+          <ul>
+            {{ range .Pages }}
+              <li>
+                <a href="{{ .Permalink }}" title="{{ .Title }}" {{ if eq $here.Permalink .Permalink }} tabindex="-1" aria-current="page" {{ end }}>
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </details>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

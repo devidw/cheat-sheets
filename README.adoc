@@ -1,25 +1,3 @@
-= A collection of school related projects
+= Cheat Sheets
 
-https://app.netlify.com/sites/mg9/deploys[image:https://api.netlify.com/api/v1/badges/c4555835-cbbc-4f6a-ba81-f29b44801115/deploy-status[Netlify
-Status]]
-
-|===
-| Project | Details | Live | Source Directory
-
-| „Mediengestalter Zwischenprüfung“
-| Practical exam results
-| https://devidwolf.github.io/edu/mgzp21/[/edu/mgzp21]
-| `mgzp21`
-
-| Cheat Sheets
-| Static Hugo website for writing and publishing cheat sheets in preparation for class tests
-a|
-* https://🤓🖕.ml[🤓🖕.ml] +
-* https://mg9.netlify.app[mg9.netlify.app]
-| `cheat-sheets`
-
-| Website: Corax
-| A school exercise for building a bootstrap powerd website for a fictional company
-| https://devidwolf.github.io/edu/website-corax/[/edu/website-corax]
-| `website-corax`
-|===
+See https://🤓🖕.ml[🤓🖕.ml]

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<dl>
+  {{ range .Pages }}
+  <dt>
+    <h2>
+      <a href="{{.Permalink}}" title="{{.Title}}">
+        {{.Title}}
+      </a>
+    </h2>
+  </dt>
+  {{ if .Description }}
+  <dd>{{ .Description }}</dd>
+  {{ else }}
+  {{ .Summary }}
+  {{ end }}
+  {{ end }}
+</dl>
+{{ end }}

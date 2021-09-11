@@ -1,0 +1,14 @@
+{{ $here := .context }}
+
+<nav>
+  <ul>
+    {{ range $here.Site.Menus.main }}
+      {{ $absURL := .URL | absURL }}
+      <li>
+        <a href="{{ .URL }}" title="{{ .Name }}" {{ if eq $here.Permalink $absURL }} tabindex="-1" aria-current="page" {{ end }}>
+          {{ .Name }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

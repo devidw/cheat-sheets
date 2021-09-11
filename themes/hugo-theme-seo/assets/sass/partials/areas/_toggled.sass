@@ -1,0 +1,37 @@
+@media (min-width: $breakpoint)
+  .mobile.sidebar
+    display: none
+
+@media (max-width: $breakpoint)
+  .right.sidebar, .left.sidebar
+    display: none
+
+.toggled
+  // the fullscreen content
+  @media (max-width: $breakpoint)
+    z-index: 1
+    position: fixed
+    display: none
+    left: 0
+    top: 0
+    width: 67vw
+    height: 100vh
+    border-right: 0.1rem solid #0004
+
+    +box-shadow
+
+    justify-content: center
+    align-items: center
+
+    // text-align: center
+    // background: transparentize(color(body-txt), .95)
+    backdrop-filter: blur(40px)
+    -webkit-backdrop-filter: blur(40px)
+
+    @supports not (backdrop-filter: blur(1px))
+      // background: transparentize(color(body-txt), .1)
+      color: color(body-bg)
+      border-right-color: #0002
+
+      a
+        color: color(body-bg)

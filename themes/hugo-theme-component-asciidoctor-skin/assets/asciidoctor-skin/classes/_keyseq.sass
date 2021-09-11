@@ -1,0 +1,19 @@
+.keyseq
+  // color: color('kbd-bg')
+  color: color("border")
+
+  kbd
+    +border
+    // +border-radius
+    +font-family-mono
+
+    box-shadow: unset
+    background: color("kbd-bg")
+    color: color("kbd-txt")
+    margin-right: 0.35rem
+
+    & + kbd
+      margin-left: 0.35rem
+
+    &:not( + kbd)
+      margin-right: 0

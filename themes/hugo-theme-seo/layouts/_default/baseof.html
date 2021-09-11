@@ -1,0 +1,63 @@
+{{/* define grid columns */}}
+
+{{ $grid := "content" }}
+
+{{/* left sidebar */}}
+{{ with .Site.Params.WidgetAreas.SidebarLeft }}
+{{ $grid = (print "sidebar-" $grid) }}
+{{ end }}
+
+{{/* right sidebar */}}
+{{ with .Site.Params.WidgetAreas.SidebarRight }}
+{{ $grid = (print $grid "-sidebar") }}
+{{ end }}
+
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
+
+<head>
+  {{ block "head" . }}
+  {{ partial "head/head.go.html" . }}
+  {{ end }}
+</head>
+
+<body class="{{ if .IsPage }}single{{ else if .IsHome }}home{{ else }}list{{ end }}">
+  <main>
+    <article class="grid-{{ $grid }}">
+      <header>
+        <!-- 1. widget-area: top header -->
+        {{ partial "widgets/_.go.html" (dict "context" . "widgets" .Site.Params.WidgetAreas.HeaderTop.Widgets) }}
+        {{ block "header" . }}
+        {{ partial "header.go.html" . }}
+        {{ end }}
+        <!-- 2. widget-area: sub header -->
+        {{ partial "widgets/_.go.html" (dict "context" . "widgets" .Site.Params.WidgetAreas.HeaderSub.Widgets) }}
+      </header>
+
+      <!-- 3. widget-area: right sidebar -->
+      {{ partial "sidebar.go.html" (dict "context" . "class" "left" "widgetArea" .Site.Params.WidgetAreas.SidebarLeft) }}
+
+      <!-- main content area -->
+      <div class="content">
+        {{ block "main" . }}{{ end }}
+      </div>
+
+      <!-- 4. widget-area: left sidebar -->
+      {{ partial "sidebar.go.html" (dict "context" . "class" "right" "widgetArea" .Site.Params.WidgetAreas.SidebarRight) }}
+
+      <footer>
+        <!-- 5. widget-area: footer -->
+        {{ partial "widgets/_.go.html" (dict "context" . "widgetArea" "footer" "widgets" .Site.Params.WidgetAreas.Footer.widgets) }}
+        {{ block "footer" . }}
+        {{ end }}
+      </footer>
+    </article>
+  </main>
+
+  <!-- 6. widget-area: mobile sidebar -->
+  {{ partial "sidebarmobile.go.html" (dict "context" . "widgetArea" .Site.Params.WidgetAreas.SidebarMobile) }}
+
+  {{ partial "head/script.go.html" . }}
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+<div>
+  <h1>{{ .Title | default .Site.Title }}</h1>
+
+{{/* on list pages display content if provided, otherwise description if available */}}
+{{ if and (not .IsHome) (not .IsPage) }}
+  {{ if .Content }}
+    {{ .Content }}
+  {{ else if .Description }}
+    <p>{{ .Description }}</p>
+  {{ end }}
+{{ else }}
+  {{ if .Description }}
+    <p>{{ .Description }}</p>
+  {{ end }}
+{{ end }}
+</div>

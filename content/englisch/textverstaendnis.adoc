@@ -18,6 +18,65 @@ date: 2021-08-29T19:26:01+02:00
 
 == Vocabulary
 
+
+=== Numbers
+==== Cardinal numbers
+|===
+| Number | English expression
+
+| 234 | two hundred and thirty four
+| 74,411 | seventy four thousand four hundred and eleven
+|===
+
+==== Ordinal numbers
+|===
+| Number | Short | English expression
+
+| 1. | 1^st^ | first
+| 2. | 2^nd^ | second
+| 3. | 3^rd^ | third
+| 4. | 4^th^ | fourth
+|===
+
+==== Decimal numbers/Decimals
+|===
+| Decimal | English expression
+
+| 2.3 | two point three
+| 5.4 | five point four
+|===
+
+==== Fractions
+|===
+| Fraction | English expression
+
+| ^1^/~2~ | a half
+| ^1^/~3~ | a third
+| ^1^/~4~ | a fourth
+| 2 ^1^/~5~ | two and a fifth
+| ^2^/~3~ | two thirds
+|===
+
+=== Mathematical symbols
+|===
+| Symbol | English expression
+
+| + | plus
+| - | minus
+| ÷ | divided by
+| &times; | multiplied by +
+times
+| ( ) | brackets
+| √ | the square root of
+| x^5^ | x to the power of 5
+| 5^2^ | 5 square
+| &gt; | is greater than
+| &lt; | is less than
+| % | percent
+| = | equals
+|===
+
+=== Words
 |===
 | English | German
 

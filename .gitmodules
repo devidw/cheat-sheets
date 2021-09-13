@@ -1,12 +1,3 @@
-[submodule "cheat-sheets/themes/fuji"]
-	path = cheat-sheets/themes/fuji
-	url = https://github.com/amzrk2/hugo-theme-fuji.git
-[submodule "cheat-sheets/themes/hugo-theme-component-asciidoctor-skin"]
-	path = cheat-sheets/themes/hugo-theme-component-asciidoctor-skin
-	url = https://github.com/hugoseotheme/hugo-theme-component-asciidoctor-skin
-[submodule "cheat-sheets/themes/hugo-theme-seo"]
-	path = cheat-sheets/themes/hugo-theme-seo
-	url = git@github.com:hugoseotheme/hugo-theme-seo.git
 [submodule "themes/hugo-theme-seo"]
 	path = themes/hugo-theme-seo
 	url = git@github.com:hugoseotheme/hugo-theme-seo.git

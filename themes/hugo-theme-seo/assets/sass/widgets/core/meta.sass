@@ -1,0 +1,23 @@
+.widget.core-meta
+  ul
+    padding-left: 1rem
+
+    li
+      padding-left: 0.35rem
+      color: var(--color-body-txt-transparentize-1)
+
+      &::marker
+        color: transparent
+        text-shadow: 0 0 var(--color-brand)
+
+      &.author
+        &::marker
+          content: "✍"
+
+      &.date
+        &::marker
+          content: "📅"
+
+      &.reading-time
+        &::marker
+          content: "⌛"

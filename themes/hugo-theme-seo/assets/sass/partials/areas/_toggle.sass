@@ -19,11 +19,12 @@ input[type=checkbox][id^=toggle]
         bottom: 0
         border-radius: 0
         background: #0003
-        width: 33vw
+        width: 33%
         height: 100vh
 
       & ~ #toggled-mobile-sidebar
         display: flex
+        overflow-y: scroll
 
 label[for^=toggle]
   $size: 3rem

@@ -23,9 +23,9 @@
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/schema.html" . }}
-{{/*
-{{ partial "structureddata/include.html" . }}
-*/}}
+{{ if templates.Exists "partials/structureddata/include.html" }}
+  {{ partial "structureddata/include.html" . }}
+{{ end }}
 
 {{ range .AlternativeOutputFormats }}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

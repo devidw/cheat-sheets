@@ -1,9 +1,0 @@
-{{ $here := .context }}
-
-<aside class="{{ .class }} sidebar">
-  {{ with .widgetArea.widgets }}
-
-    {{ partial "widgets/_.go.html" (dict "context" $here "widgetArea" "sidebar" "widgets" .) }}
-
-  {{ end }}
-</aside>

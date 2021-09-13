@@ -1,6 +1,0 @@
-= Hugo SEO Theme
-
-[source]
-----
-git submodule add git@github.com:hugoseotheme/hugo-theme-seo.git themes/hugo-theme-seo
-----

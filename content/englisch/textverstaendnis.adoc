@@ -2,7 +2,6 @@
 title: Textverständnis
 date: 2021-08-29T19:26:01+02:00
 ---
-
 :toc:
 
 [cols="25h,75"]
@@ -17,7 +16,6 @@ date: 2021-08-29T19:26:01+02:00
 
 
 == Vocabulary
-
 
 === Numbers
 ==== Cardinal numbers

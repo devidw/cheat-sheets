@@ -1,17 +1,31 @@
 ---
 title: Diagramme
 date: 2021-08-29T19:26:12+02:00
-tags: ["deutsch"]
 ---
-
 :toc:
+:icons: font
 
 [cols="25h,75"]
 |===
 | Prüfungstermin
 | Mittwoch, 15. September 12021 HE
-
-| Inhaltliche Quellen
-a|
-* …
+//
+// | Inhaltliche Quellen
+// a|
+// . …
 |===
+
+== Kriterien
+. Überschrift (ggf. als Frage formulieren)
+. Quellenangabe
+.. Institut
+.. Befragte
+.. Veröffentlicher
+. Gesundes Verhältnis zwischen Diagramm und Legende
+.. keine Redundanzen die zur Überflüssigkeit führen könnten (hierzu Farben)
+. wenn Achsen dann Achsenbeschriftungen
+.. Zeit immer horizontal darstellen
+. Einheitlichkeit
+.. Wenn Text nicht in Diagramm, dann einheitlich z. B. bei Kreis um das Diagramm
+
+NOTE: Auf den geforderten Diagrammtypen achten, `Baken- ≠ Säulendiagramm` 😉

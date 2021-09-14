@@ -7,5 +7,5 @@ Static Hugo website for writing and publishing cheat sheets in preparation for c
 See
 
 * https://🤓🖕.ml[🤓🖕.ml]
-* https://mg-9.cf[mg-9.cf]
+* http://mg-9.cf[mg-9.cf]
 * https://mg9.netlify.app[mg9.netlify.app]

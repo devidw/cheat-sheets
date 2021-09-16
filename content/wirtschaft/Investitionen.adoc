@@ -16,50 +16,72 @@ date: 2021-09-16
 // * …
 |===
 
-== Multiple-Choice
-IMPORTANT: Immer *nur eine einzige* Lösung ist richtig
-
-=== Arbeitsverhältnis
-* bei Arbeitsunfähigkeit
-** am nächsten Arbeitstag ärztliche Bescheinigung
-** 6 Wochen Anspruch auf Gehalt
-** danach Krankengeld (ca. 65% des Gehalts)
-* Lohn
-** Zeitlohn nach Zeit
-** Akkordlohn nach Leistung
-* Arbeitszeit
-** 8 Stunden generelles, regelmäßiges Maximum
-** 10 Stunden, wenn innerhalb 6 Monate 8
-
 == Begriffe
 [cols="40h,60"]
 |===
 | Investition
-| Güter-Anschaffung
+| Anschaffung von bspw. Gütern
 
 | Finanzierung
 | Kapitalbeschaffung für Investitionen
 
 | Bilanz
-| Zustand von Investition und Finanzierung
+| Zusammenhang zwischen Investitionen und Finanzierung
 
 | Aktivseite
-| Vermögenswerte
+a| Vermögenswerte
+
+* Anlagevermögen
+* Umlaufvermögen
 
 | Passivseite
-| Vermögensherkunft
+a| Vermögensherkunft
+
+* Eigenkapital
+* Fremdkapital
 
 | Anlagevermögen
-| Langfristige Vermögensanteile
+a| Langfristige Vermögensanteile
+
+.Beispiele
+* Grundstück
+* Maschinen
+* Fuhrpark
+* Ausstattung
 
 | Umlaufvermögen
-| Kurzfristige Vermögensanteile
+a| Kurzfristige Vermögensanteile
 
-| Erstinvestition
-| Initiale Gründungsinvestition
+.Beispiele
+* Warenbestand
+* Erzeugnisse
+* Kasse
 |===
 
+== Arten
+Investitionen lassen sich grundlegend in die folgenden vier Arten untergliedern:
+
+[cols="1h,1"]
+|===
+| Erstinvestition
+| Initiale _Gründungsinvestition_
+
+| Erweiterungsinvestition
+| Kapazitätserweiterung
+
+| Ersatzinvestition
+| Ersatz von z. B. nicht mehr funktionstüchtigen Betriebsmitteln
+
+| Rationalisierungsinvestition
+| Austausch/Upgrades zu verbessertem Betriebsmittel
+|===
+
+NOTE: Investitionen sind nicht immer einer konkreten Investitionsart zuzuschreiben. Nicht selten handelt es sich bei einer Investition um eine Kombination der aufgeführten Investitionsarten.
+
 == Rechnungen
+Zum Vergleich und zur Abwägung der Wirtschaftlichkeit unterschiedlicher Investitionen dienen folgende Berechnungen als Indikator.
+
+=== Kosten- & Gewinnvergleichsrechnungen
 
 .Berechnungs-Tabelle
 [cols="25h,5,5,5,10"]
@@ -75,51 +97,68 @@ IMPORTANT: Immer *nur eine einzige* Lösung ist richtig
 
 IMPORTANT: Falls die Stückzahl höher ist als die Kapazitätsgrenze gilt: `Stückzahl = Kapazitätsgrenze`
 
-=== Kosten
-==== Variable Kosten
+==== Kosten
+===== Variable Kosten
 ----
 Variable Kosten = Produzierte Stückzahl * Produktionskosten pro Stück
 ----
 
-==== Gesamte Kosten
+===== Gesamte Kosten
 ----
 Gesamte Kosten = Fixkosten + Variable Kosten
 ----
 
-=== Erlös
+==== Erlös
 ----
 Erlös = Verkaufte Stückzahl * Verkaufspreis pro Stück
 ----
 
-=== Gewinn
+==== Gewinn
 ----
 Gewinn = Erlös - Gesamte Kosten
 ----
 
-==== Durchschnittlicher Gewinn
+===== Durchschnittlicher Gewinn
 ----
 Durchschnittlicher Gewinn pro Jahr = Summe aller Jahresgewinne / Anzahl der Jahre
 ----
 
-=== Amortisation
-Die Jahre bis abbezahlt (Kapitalrückflusszeit)
 
-CAUTION: Kleine Zahl => Gut (weil dann schnell abbezahlt)
-
-----
-Kapitalrückflusszeit = Investitionsbetrag / Jahresgewinn + Jahresabschreibung
-----
-
-=== Rentabilität
+=== Rentabilitätsrechnung
 Anteil von Gewinn an Investitonssumme in %
 
-CAUTION: Große Zahl => Gut (weil dann Gewinn deckt Investition zu gegebenen Anteil)
+----
+Rentabilität = (Jahresgewinn * 100) / Durchschnittlicher Kapitalbetrag
+----
 
-----
-Rentabilität = (Jahresgewinn * 100) / (Investitonssumme / 2)
-----
+CAUTION: Große Zahl => Gut (weil dann Gewinn deckt Investition zu gegebenen Anteil)
 
 ==== Durchschnittlicher Kapitalbetrag
 ----
 Durchschnittlicher Kapitalbetrag = Investitonssumme / 2
 ----
+
+
+=== Amortisationsrechnung
+Die Jahre bis abbezahlt (Kapitalrückflusszeit)
+
+----
+Kapitalrückflusszeit = Investitionsbetrag / (Jahresgewinn + Jahresabschreibung)
+----
+
+CAUTION: Kleine Zahl => Gut (weil dann schnell abbezahlt)
+
+== Multiple-Choice
+IMPORTANT: Immer *nur eine einzige* Lösung ist richtig
+
+=== Arbeitsverhältnis
+* bei Arbeitsunfähigkeit
+** am nächsten Arbeitstag ärztliche Bescheinigung
+** 6 Wochen Anspruch auf Gehalt
+** danach Krankengeld (ca. 65% des Gehalts)
+* Lohn
+** Zeitlohn nach Zeit
+** Akkordlohn nach Leistung
+* Arbeitszeit
+** 8 Stunden generelles, regelmäßiges Maximum
+** 10 Stunden, wenn innerhalb 6 Monate 8

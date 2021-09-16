@@ -161,4 +161,4 @@ IMPORTANT: Immer *nur eine einzige* Lösung ist richtig
 ** Akkordlohn nach Leistung
 * Arbeitszeit
 ** 8 Stunden generelles, regelmäßiges Maximum
-** 10 Stunden, wenn innerhalb 6 Monate 8
+** 10 Stunden, wenn innerhalb von 6 Monaten 8 Stunden im Schnitt nicht überschritten werden

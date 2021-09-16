@@ -1,0 +1,125 @@
+---
+title: Investitionen
+date: 2021-09-16
+---
+:toc:
+:icons: font
+:!table-caption: font
+
+[cols="25h,75"]
+|===
+| Prüfungstermin
+| Freitag, 17. September 12021 HE
+//
+// | Inhaltliche Quellen
+// a|
+// * …
+|===
+
+== Multiple-Choice
+IMPORTANT: Immer *nur eine einzige* Lösung ist richtig
+
+=== Arbeitsverhältnis
+* bei Arbeitsunfähigkeit
+** am nächsten Arbeitstag ärztliche Bescheinigung
+** 6 Wochen Anspruch auf Gehalt
+** danach Krankengeld (ca. 65% des Gehalts)
+* Lohn
+** Zeitlohn nach Zeit
+** Akkordlohn nach Leistung
+* Arbeitszeit
+** 8 Stunden generelles, regelmäßiges Maximum
+** 10 Stunden, wenn innerhalb 6 Monate 8
+
+== Begriffe
+[cols="40h,60"]
+|===
+| Investition
+| Güter-Anschaffung
+
+| Finanzierung
+| Kapitalbeschaffung für Investitionen
+
+| Bilanz
+| Zustand von Investition und Finanzierung
+
+| Aktivseite
+| Vermögenswerte
+
+| Passivseite
+| Vermögensherkunft
+
+| Anlagevermögen
+| Langfristige Vermögensanteile
+
+| Umlaufvermögen
+| Kurzfristige Vermögensanteile
+
+| Erstinvestition
+| Initiale Gründungsinvestition
+|===
+
+== Rechnungen
+
+.Berechnungs-Tabelle
+[cols="25h,5,5,5,10"]
+|===
+| Jahr | 1 | … | 5 | Gesamt
+
+| Kosten: Fix | … | … | … | …
+| Kosten: Variable  | … | … | … | …
+| Kosten: Gesamt | … | … | … | …
+| Erlös | … | … | … | …
+| Gewinn | … | … | … | …
+|===
+
+IMPORTANT: Falls die Stückzahl höher ist als die Kapazitätsgrenze gilt: `Stückzahl = Kapazitätsgrenze`
+
+=== Kosten
+==== Variable Kosten
+----
+Variable Kosten = Produzierte Stückzahl * Produktionskosten pro Stück
+----
+
+==== Gesamte Kosten
+----
+Gesamte Kosten = Fixkosten + Variable Kosten
+----
+
+=== Erlös
+----
+Erlös = Verkaufte Stückzahl * Verkaufspreis pro Stück
+----
+
+=== Gewinn
+----
+Gewinn = Erlös - Gesamte Kosten
+----
+
+==== Durchschnittlicher Gewinn
+----
+Durchschnittlicher Gewinn pro Jahr = Summe aller Jahresgewinne / Anzahl der Jahre
+----
+
+=== Amortisation
+Die Jahre bis abbezahlt (Kapitalrückflusszeit)
+
+CAUTION: Kleine Zahl => Gut (weil dann schnell abbezahlt)
+
+----
+Kapitalrückflusszeit = Investitionsbetrag / Jahresgewinn + Jahresabschreibung
+----
+
+=== Rentabilität
+Anteil von Gewinn an Investitonssumme in %
+
+CAUTION: Große Zahl => Gut (weil dann Gewinn deckt Investition zu gegebenen Anteil)
+
+----
+Rentabilität = (Jahresgewinn * 100) / (Investitonssumme / 2)
+----
+
+==== Durchschnittlicher Kapitalbetrag
+----
+Durchschnittlicher Kapitalbetrag = Investitonssumme / 2
+----
